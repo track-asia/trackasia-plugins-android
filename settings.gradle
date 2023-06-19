@@ -1,0 +1,8 @@
+include ':app'
+include ':plugin-building'
+include ':plugin-offline'
+include ':plugin-localization'
+include ':plugin-annotation'
+include ':plugin-markerview'
+include ':ktx-mapbox-maps'
+include ':plugin-scalebar'

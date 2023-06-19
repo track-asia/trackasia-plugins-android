@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ktx-mapbox-maps" />
+            <option value="$PROJECT_DIR$/plugin-annotation" />
+            <option value="$PROJECT_DIR$/plugin-building" />
+            <option value="$PROJECT_DIR$/plugin-localization" />
+            <option value="$PROJECT_DIR$/plugin-markerview" />
+            <option value="$PROJECT_DIR$/plugin-offline" />
+            <option value="$PROJECT_DIR$/plugin-scalebar" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

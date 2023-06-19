@@ -1,0 +1,14 @@
+ext {
+    mapLibreArtifactGroupId = 'org.maplibre.gl'
+    mapLibreArtifactId = project.property('POM_ARTIFACT_ID')
+    mapLibreArtifactTitle = project.property('POM_NAME')
+    mapLibreArtifactDescription = project.property('POM_DESCRIPTION')
+    mapLibreDeveloperName = 'MapLibre'
+    mapLibreDeveloperId = 'maplibre'
+    mapLibreArtifactUrl = 'https://github.com/maplibre/maplibre-plugins-android'
+    mapLibreArtifactVcsUrl = 'git@github.com:maplibre/maplibre-plugins-android.git'
+    mapLibreArtifactScmUrl = 'scm:git@github.com:maplibre/maplibre-plugins-android.git'
+    mapLibreArtifactLicenseName = 'BSD'
+    mapLibreArtifactLicenseUrl = 'https://opensource.org/licenses/BSD-2-Clause'
+    versionName = "1.0.0"
+}

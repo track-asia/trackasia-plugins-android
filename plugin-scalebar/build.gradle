@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion androidVersions.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion androidVersions.minSdkVersion
+        targetSdkVersion androidVersions.targetSdkVersion
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    configurations {
+        javadocDeps
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues true
+    }
+}
+
+dependencies {
+    implementation dependenciesList.supportAppcompatV7
+    implementation dependenciesList.supportAnnotation
+    implementation dependenciesList.mapLibreAndroidSdk
+    javadocDeps dependenciesList.mapLibreAndroidSdk
+    testImplementation dependenciesList.kotlin
+    testImplementation dependenciesList.mockk
+    testImplementation dependenciesList.junit
+}
+
+apply from: "${rootDir}/gradle/javadoc.gradle"
+apply from: "${rootDir}/gradle/publish.gradle"
+apply from: "${rootDir}/gradle/checkstyle.gradle"
