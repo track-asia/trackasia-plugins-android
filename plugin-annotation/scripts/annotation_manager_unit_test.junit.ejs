@@ -5,21 +5,21 @@
 -%>
 // This file is generated.
 
-package com.mapbox.mapboxsdk.plugins.annotation;
+package com.trackasia.android.plugins.annotation;
 
 import android.graphics.PointF;
 
 import com.google.gson.JsonPrimitive;
 import com.mapbox.geojson.*;
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.style.expressions.Expression;
-import com.mapbox.mapboxsdk.style.layers.*;
-import com.mapbox.mapboxsdk.style.sources.GeoJsonOptions;
-import com.mapbox.mapboxsdk.style.sources.GeoJsonSource;
-import com.mapbox.mapboxsdk.utils.ColorUtils;
+import com.trackasia.android.geometry.LatLng;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.style.expressions.Expression;
+import com.trackasia.android.style.layers.*;
+import com.trackasia.android.style.sources.GeoJsonOptions;
+import com.trackasia.android.style.sources.GeoJsonSource;
+import com.trackasia.android.utils.ColorUtils;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -29,10 +29,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
-import static com.mapbox.mapboxsdk.plugins.annotation.ConvertUtils.convertArray;
-import static com.mapbox.mapboxsdk.style.expressions.Expression.get;
-import static com.mapbox.mapboxsdk.style.layers.Property.*;
-import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.*;
+import static com.trackasia.android.plugins.annotation.ConvertUtils.convertArray;
+import static com.trackasia.android.style.expressions.Expression.get;
+import static com.trackasia.android.style.layers.Property.*;
+import static com.trackasia.android.style.layers.PropertyFactory.*;
 import static junit.framework.Assert.*;
 import static org.mockito.ArgumentMatchers.argThat;
 import static org.mockito.Mockito.*;
@@ -41,7 +41,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     private DraggableAnnotationController draggableAnnotationController = mock(DraggableAnnotationController.class);
     private MapView mapView = mock(MapView.class);
-    private MapboxMap mapboxMap = mock(MapboxMap.class);
+    private TrackasiaMap mapboxMap = mock(TrackasiaMap.class);
     private Style style = mock(Style.class);
     private GeoJsonSource geoJsonSource = mock(GeoJsonSource.class);
     private GeoJsonSource optionedGeoJsonSource = mock(GeoJsonSource.class);

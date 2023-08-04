@@ -1,21 +1,21 @@
-package com.mapbox.mapboxsdk.plugins.utils;
+package com.trackasia.android.plugins.utils;
 
 import android.app.Activity;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.plugins.testapp.R;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.maps.OnMapReadyCallback;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.plugins.testapp.R;
 
 import androidx.annotation.NonNull;
 import androidx.test.espresso.IdlingResource;
 
 public class OnMapReadyIdlingResource implements IdlingResource, OnMapReadyCallback {
 
-    private MapboxMap mapboxMap;
+    private TrackasiaMap mapboxMap;
     private MapView mapView;
     private IdlingResource.ResourceCallback resourceCallback;
 
@@ -47,12 +47,12 @@ public class OnMapReadyIdlingResource implements IdlingResource, OnMapReadyCallb
         return mapView;
     }
 
-    public MapboxMap getMapboxMap() {
+    public TrackasiaMap getMapboxMap() {
         return mapboxMap;
     }
 
     @Override
-    public void onMapReady(@NonNull MapboxMap mapboxMap) {
+    public void onMapReady(@NonNull TrackasiaMap mapboxMap) {
         this.mapboxMap = mapboxMap;
         mapboxMap.setStyle(Style.getPredefinedStyle("Streets"), style -> {
             if (resourceCallback != null) {

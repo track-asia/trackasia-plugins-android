@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_item_feature.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/item_feature.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_location.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_scalebar.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_scalebar.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_custom_user_arrow.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/custom_user_arrow.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_camera.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_business.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_business.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_fill.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_fill.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_offline_ui_components.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_ui_components.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_file.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_file.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_line.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_line.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_custom_user_puck_icon.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/custom_user_puck_icon.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_localization.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_localization.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_cluster.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_cluster.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_offline_download.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_download.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_delete.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_building.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_building.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_feature_overview.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_feature_overview.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_symbol.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_symbol.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_section_feature.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/section_feature.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_marker_view.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/marker_view.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_save.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_save.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_translate_white_24dp.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_translate_white_24dp.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_bulk_symbol.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_bulk_symbol.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_circle.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_circle.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_path.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_path.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_line_divider.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/line_divider.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_car.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_car.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_layers_clear.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_layers_clear.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_layers.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_layers.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_maps_ktx.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_maps_ktx.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_offline_region_detail.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_region_detail.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_fire_hydrant.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_fire_hydrant.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_custom_user_stroke_icon.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/custom_user_stroke_icon.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_test.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-debug-28:/layout/activity_test.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_url.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_url.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_scale.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_scale.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_location_disabled.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_location_disabled.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_annotation.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_annotation.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_languages.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_languages.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_custom_user_icon.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/custom_user_icon.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/layout_activity_offline_region_list.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_region_list.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/raw_radar_search.json.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/raw/radar_search.json"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/drawable_ic_airplanemode_active_black_24dp.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/drawable/ic_airplanemode_active_black_24dp.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_change_line.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_change_line.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-merged_res-27:/menu_menu_change_fill.xml.flat",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/menu/menu_change_fill.xml"
+    }
+]

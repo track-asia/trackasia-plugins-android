@@ -4,7 +4,7 @@ apply from: '../gradle/artifact-settings.gradle'
 apply from: '../gradle/publish-root.gradle'
 
 version = project.ext.versionName
-group = project.ext.mapLibreArtifactGroupId
+group = project.ext.trackasiaArtifactGroupId
 
 task androidJavadocs(type: Javadoc) {
   source = android.sourceSets.main.java.sourceFiles
@@ -33,7 +33,7 @@ afterEvaluate {
             release(MavenPublication) {
                             
                 groupId this.group
-                artifactId project.ext.mapLibreArtifactId
+                artifactId project.ext.trackasiaArtifactId
                 
                 from components.release
 
@@ -43,26 +43,26 @@ afterEvaluate {
                 version this.version
 
                 pom {
-                    name = project.ext.mapLibreArtifactTitle
-                    description = project.ext.mapLibreArtifactTitle
-                    url = project.ext.mapLibreArtifactUrl
+                    name = project.ext.trackasiaArtifactTitle
+                    description = project.ext.trackasiaArtifactTitle
+                    url = project.ext.trackasiaArtifactUrl
                     licenses {
                         license {
-                            name = project.ext.mapLibreArtifactLicenseName
-                            url = project.ext.mapLibreArtifactLicenseUrl
+                            name = project.ext.trackasiaArtifactLicenseName
+                            url = project.ext.trackasiaArtifactLicenseUrl
                         }
                     }
                     developers {
                         developer {
-                            id = project.ext.mapLibreDeveloperId
-                            name = project.ext.mapLibreDeveloperName
-                            email = 'maplibre@maplibre.org'
+                            id = project.ext.trackasiaDeveloperId
+                            name = project.ext.trackasiaDeveloperName
+                            email = 'trackasia@track-asia.com'
                         }
                     }
                     scm {
-                        connection = project.ext.mapLibreArtifactScmUrl
-                        developerConnection = project.ext.mapLibreArtifactScmUrl
-                        url = project.ext.mapLibreArtifactUrl
+                        connection = project.ext.trackasiaArtifactScmUrl
+                        developerConnection = project.ext.trackasiaArtifactScmUrl
+                        url = project.ext.trackasiaArtifactUrl
                     }
                 }            
             }

@@ -1,21 +1,21 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.offline
+package com.trackasia.android.plugins.testapp.activity.offline
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.mapbox.mapboxsdk.maps.MapView
-import com.mapbox.mapboxsdk.offline.OfflineManager
-import com.mapbox.mapboxsdk.offline.OfflineRegion
-import com.mapbox.mapboxsdk.offline.OfflineRegionDefinition
-import com.mapbox.mapboxsdk.offline.OfflineRegionStatus
-import com.mapbox.mapboxsdk.plugins.offline.model.OfflineDownloadOptions
-import com.mapbox.mapboxsdk.plugins.offline.offline.OfflineConstants.KEY_BUNDLE
-import com.mapbox.mapboxsdk.plugins.offline.offline.OfflineDownloadChangeListener
-import com.mapbox.mapboxsdk.plugins.offline.offline.OfflinePlugin
-import com.mapbox.mapboxsdk.plugins.offline.utils.OfflineUtils
-import com.mapbox.mapboxsdk.plugins.testapp.R
-import com.mapbox.mapboxsdk.plugins.testapp.databinding.ActivityOfflineRegionDetailBinding
+import com.trackasia.android.maps.MapView
+import com.trackasia.android.offline.OfflineManager
+import com.trackasia.android.offline.OfflineRegion
+import com.trackasia.android.offline.OfflineRegionDefinition
+import com.trackasia.android.offline.OfflineRegionStatus
+import com.trackasia.android.plugins.offline.model.OfflineDownloadOptions
+import com.trackasia.android.plugins.offline.offline.OfflineConstants.KEY_BUNDLE
+import com.trackasia.android.plugins.offline.offline.OfflineDownloadChangeListener
+import com.trackasia.android.plugins.offline.offline.OfflinePlugin
+import com.trackasia.android.plugins.offline.utils.OfflineUtils
+import com.trackasia.android.plugins.testapp.R
+import com.trackasia.android.plugins.testapp.databinding.ActivityOfflineRegionDetailBinding
 import timber.log.Timber
 
 /**
@@ -254,6 +254,6 @@ class OfflineRegionDetailActivity : AppCompatActivity(), OfflineDownloadChangeLi
 
     companion object {
 
-        val KEY_REGION_ID_BUNDLE = "com.mapbox.mapboxsdk.plugins.offline.bundle.id"
+        val KEY_REGION_ID_BUNDLE = "com.trackasia.android.plugins.offline.bundle.id"
     }
 }

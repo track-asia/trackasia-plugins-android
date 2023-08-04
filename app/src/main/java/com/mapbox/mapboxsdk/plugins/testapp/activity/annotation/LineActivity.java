@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.annotation;
+package com.trackasia.android.plugins.testapp.activity.annotation;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -6,16 +6,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.mapbox.mapboxsdk.camera.CameraUpdateFactory;
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.plugins.annotation.Line;
-import com.mapbox.mapboxsdk.plugins.annotation.LineManager;
-import com.mapbox.mapboxsdk.plugins.annotation.LineOptions;
-import com.mapbox.mapboxsdk.plugins.testapp.R;
-import com.mapbox.mapboxsdk.plugins.testapp.Utils;
-import com.mapbox.mapboxsdk.utils.ColorUtils;
+import com.trackasia.android.camera.CameraUpdateFactory;
+import com.trackasia.android.geometry.LatLng;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.plugins.annotation.Line;
+import com.trackasia.android.plugins.annotation.LineManager;
+import com.trackasia.android.plugins.annotation.LineOptions;
+import com.trackasia.android.plugins.testapp.R;
+import com.trackasia.android.plugins.testapp.Utils;
+import com.trackasia.android.utils.ColorUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

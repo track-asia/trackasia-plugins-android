@@ -1,12 +1,12 @@
 // This file is generated.
 
-package com.mapbox.mapboxsdk.plugins.annotation;
+package com.trackasia.android.plugins.annotation;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.plugins.testapp.activity.TestActivity;
-import com.mapbox.mapboxsdk.plugins.BaseActivityTest;
+import com.trackasia.android.geometry.LatLng;
+import com.trackasia.android.plugins.testapp.activity.TestActivity;
+import com.trackasia.android.plugins.BaseActivityTest;
 
 import timber.log.Timber;
 
@@ -15,9 +15,9 @@ import org.junit.runner.RunWith;
 
 import java.util.Objects;
 
-import static com.mapbox.mapboxsdk.plugins.annotation.MapboxMapAction.invoke;
+import static com.trackasia.android.plugins.annotation.MapboxMapAction.invoke;
 import static org.junit.Assert.*;
-import static com.mapbox.mapboxsdk.style.layers.Property.*;
+import static com.trackasia.android.style.layers.Property.*;
 
 /**
  * Basic smoke tests for LineManager

@@ -1,0 +1,637 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:2:1-251:12
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:2:1-251:12
+MERGED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:2:1-251:12
+MERGED from [androidx.databinding:viewbinding:7.4.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/41e218bda79c2315c8f17856c0e37d25/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:17:1-74:12
+MERGED from [:ktx-mapbox-maps] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/ktx-mapbox-maps/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:plugin-scalebar] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-scalebar/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:plugin-localization] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:plugin-annotation] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-annotation/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:plugin-markerview] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-markerview/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3df296084440aac1acca3d189296dc31/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.material:material:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/068dcdbbd491dbafa22d330211d6ac77/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/9feb9f1cc3508f83d259767fcebec0b6/transformed/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b2ed6c710272b2b82aa81705bb217f81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2e1caff8a3a6fd44c215bbef2e593d5/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/821c4ec86e7b7b92c42f6906166f10ff/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/153ca2b80aa07da455b0d8a870b234bd/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2f7a08e4eb5e7866e9e63ab6303b3553/transformed/fragment-1.5.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1cbec220155f2c479fc0fb29afee4195/transformed/room-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1b8c7b6844ed2d0ca5064f8722b00880/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e243865ac41859f2abb390d75857d402/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/22b6e1a923867d2f6f41c37c3509630e/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1839756975d7dfd580208131fe898b01/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b76c75e3aa55c54ac26631bff75f6f36/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2bf930263fc944d7825a0c9e598b92c4/transformed/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/204f2d0a63460d649fd75a56e3cf8870/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/38ceb649bc3ef115fbf94a687ab58809/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/885242c796d785f22fbc0bcd91bd866b/transformed/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1dbcc790c2efce798b35c2c9dbf84a29/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/531df76ab075955d2e5f2e85684c1cf0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/33ed6f1701ee54344530dd7f2a88a2d3/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8bafacd48723a57826cb2181bd06b122/transformed/sqlite-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/ca43d677f2ecb207949ced85b67e9cc7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/a93b7de3bc59da2af5147b07b2bf8b8d/transformed/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/00bc3f8ddfcaf6e52b1f025786569bce/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/86c1de2189aa96196b641087122cd488/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2a5020c24cfda9fc3d02a1e14fafcf0c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/993457c521b407ab52c4c8651662ed64/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/6ec0bebf92031ffdeef1c3364f32586b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2af1bfb8c788c38e6c1c1d17535f2ba8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/62fb4bb96f32505fe2739183acb2d0a3/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/0a8d95c14a2e630bb3cc5728e293b029/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/631121e27484952a1fca6cc7d40f0b70/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2be87b34b91f4a9c0dd2bdf37be373b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/7c4b14c070c1e534951fd94a8d1e32e1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1f103ece115e65ee08212490ba5165b2/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/406c62ff1def4cefd188dfb82cfd7cdb/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-ktx:1.2.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b70ddadd53d65a9844548b0ff2213aa1/transformed/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.8.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8a050f9a7a69c8c3ed2e8455f4e0b41d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/fcc1f28a7eb00437e80c13c8e97b33f0/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3073a8550d2e234bcf0ecf74203999e1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e6404abb359073569e2503bb8b9760db/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/15d016bd41f69adc35dd9eaabf0ae37f/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b0bdbcfbf8f2788a0109ba2692459497/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/bd5df600638932fdc98aa768df38e6af/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/896638286ebb5d72418332163ef3f0dd/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/c1fa3d86d75b2d1369b2659e930ae392/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e786339eff1dbd82cec23abf05fa12d3/transformed/jetified-timber-5.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/5bbaa060c12804a64da6cefa857c5a15/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:3:58-105
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:3:11-57
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:3:11-57
+	xmlns:android
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:5:3-76
+MERGED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:5:3-76
+MERGED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:5:3-76
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:18:5-79
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:5:20-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:6:3-78
+MERGED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:6:3-78
+MERGED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:6:3-78
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:6:20-76
+application
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:8:3-250:17
+MERGED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:8:3-250:17
+MERGED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:8:3-250:17
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:28:5-72:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:28:5-72:19
+MERGED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-18:19
+MERGED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-18:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3df296084440aac1acca3d189296dc31/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3df296084440aac1acca3d189296dc31/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.material:material:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/068dcdbbd491dbafa22d330211d6ac77/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/068dcdbbd491dbafa22d330211d6ac77/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b2ed6c710272b2b82aa81705bb217f81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b2ed6c710272b2b82aa81705bb217f81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2e1caff8a3a6fd44c215bbef2e593d5/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2e1caff8a3a6fd44c215bbef2e593d5/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/821c4ec86e7b7b92c42f6906166f10ff/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/821c4ec86e7b7b92c42f6906166f10ff/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/885242c796d785f22fbc0bcd91bd866b/transformed/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/885242c796d785f22fbc0bcd91bd866b/transformed/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.8.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8a050f9a7a69c8c3ed2e8455f4e0b41d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8a050f9a7a69c8c3ed2e8455f4e0b41d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/c1fa3d86d75b2d1369b2659e930ae392/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/c1fa3d86d75b2d1369b2659e930ae392/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e786339eff1dbd82cec23abf05fa12d3/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e786339eff1dbd82cec23abf05fa12d3/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:14:11-37
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:14:11-37
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:12:11-43
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:12:11-43
+	tools:ignore
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:16:11-62
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:16:11-62
+	android:roundIcon
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:13:11-56
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:13:11-56
+	android:icon
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:11:11-45
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:11:11-45
+	android:allowBackup
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:10:11-37
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:10:11-37
+	android:theme
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:15:11-42
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:15:11-42
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:9:11-44
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:9:11-44
+activity#com.trackasia.android.plugins.testapp.activity.FeatureOverviewActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:17:5-23:16
+	android:exported
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:17:15-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:19:7-22:23
+action#android.intent.action.MAIN
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:20:9-60
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:20:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:21:9-68
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:21:19-66
+activity#com.trackasia.android.plugins.testapp.activity.offline.OfflineDownloadActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:46:5-56:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:49:7-51
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:48:7-63
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:47:7-63
+meta-data#@string/category
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+	android:value
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+	android:value
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+activity#com.trackasia.android.plugins.testapp.activity.offline.OfflineUiComponentsActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:57:5-67:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:60:7-58
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:59:7-70
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:58:7-67
+activity#com.trackasia.android.plugins.testapp.activity.offline.OfflineRegionListActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:68:5-78:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:71:7-52
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:70:7-64
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:69:7-65
+activity#com.trackasia.android.plugins.testapp.activity.offline.OfflineRegionDetailActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:79:5-83:43
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:82:7-52
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:81:7-64
+	android:theme
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:83:7-41
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:80:7-67
+activity#com.trackasia.android.plugins.testapp.activity.localization.LocalizationActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:84:5-94:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:87:7-49
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:86:7-61
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:85:7-65
+activity#com.trackasia.android.plugins.testapp.activity.annotation.SymbolActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:95:5-105:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:98:13-49
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:97:13-61
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:96:13-63
+activity#com.trackasia.android.plugins.testapp.activity.annotation.PressForSymbolActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:106:5-116:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:109:13-55
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:108:13-67
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:107:13-71
+activity#com.trackasia.android.plugins.testapp.activity.annotation.BulkSymbolActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:117:5-127:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:120:13-54
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:119:13-66
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:118:13-67
+activity#com.trackasia.android.plugins.testapp.activity.annotation.ClusterSymbolActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:128:5-138:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:131:9-53
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:130:9-65
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:129:9-66
+activity#com.trackasia.android.plugins.testapp.activity.annotation.DynamicSymbolChangeActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:139:5-149:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:142:13-56
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:141:13-68
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:140:13-76
+activity#com.trackasia.android.plugins.testapp.activity.annotation.FillActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:150:5-160:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:153:13-47
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:152:13-59
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:151:13-61
+activity#com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:161:5-171:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:164:13-54
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:163:13-66
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:162:13-67
+activity#com.trackasia.android.plugins.testapp.activity.annotation.CircleActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:172:5-182:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:175:13-49
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:174:13-61
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:173:13-63
+activity#com.trackasia.android.plugins.testapp.activity.annotation.LineActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:183:5-193:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:186:13-47
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:185:13-59
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:184:13-61
+activity#com.trackasia.android.plugins.testapp.activity.annotation.LineChangeActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:194:5-204:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:197:13-54
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:196:13-66
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:195:13-67
+activity#com.trackasia.android.plugins.testapp.activity.markerview.MarkerViewActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:205:5-215:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:208:13-53
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:207:13-65
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:206:13-67
+activity#com.trackasia.android.plugins.testapp.activity.ktx.maps.MapboxKtxActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:217:5-227:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:220:13-46
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:219:13-58
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:218:13-64
+activity#com.trackasia.android.plugins.testapp.activity.scalebar.ScalebarActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:229:5-239:16
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:232:13-51
+	android:description
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:231:13-63
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:230:13-63
+service#com.trackasia.android.plugins.offline.offline.OfflineDownloadService
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:241:5-243:33
+MERGED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:40
+MERGED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:243:7-31
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:242:7-90
+receiver#com.trackasia.android.plugins.offline.offline.OfflineDownloadStateReceiver
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:245:5-249:16
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:245:15-104
+intent-filter#action:name:com.trackasia.android.plugins.offline
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:246:7-248:23
+action#com.trackasia.android.plugins.offline
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:247:9-71
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:247:17-69
+uses-sdk
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.4.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/41e218bda79c2315c8f17856c0e37d25/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/41e218bda79c2315c8f17856c0e37d25/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [:ktx-mapbox-maps] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/ktx-mapbox-maps/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:ktx-mapbox-maps] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/ktx-mapbox-maps/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-scalebar] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-scalebar/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-scalebar] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-scalebar/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-localization] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-localization] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-annotation] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-annotation/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-annotation] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-annotation/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-markerview] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-markerview/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-markerview] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-markerview/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:5:5-44
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3df296084440aac1acca3d189296dc31/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3df296084440aac1acca3d189296dc31/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/068dcdbbd491dbafa22d330211d6ac77/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/068dcdbbd491dbafa22d330211d6ac77/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/9feb9f1cc3508f83d259767fcebec0b6/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/9feb9f1cc3508f83d259767fcebec0b6/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b2ed6c710272b2b82aa81705bb217f81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b2ed6c710272b2b82aa81705bb217f81/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2e1caff8a3a6fd44c215bbef2e593d5/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2e1caff8a3a6fd44c215bbef2e593d5/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/821c4ec86e7b7b92c42f6906166f10ff/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/821c4ec86e7b7b92c42f6906166f10ff/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/153ca2b80aa07da455b0d8a870b234bd/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/153ca2b80aa07da455b0d8a870b234bd/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2f7a08e4eb5e7866e9e63ab6303b3553/transformed/fragment-1.5.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2f7a08e4eb5e7866e9e63ab6303b3553/transformed/fragment-1.5.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1cbec220155f2c479fc0fb29afee4195/transformed/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1cbec220155f2c479fc0fb29afee4195/transformed/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1b8c7b6844ed2d0ca5064f8722b00880/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1b8c7b6844ed2d0ca5064f8722b00880/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e243865ac41859f2abb390d75857d402/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e243865ac41859f2abb390d75857d402/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/22b6e1a923867d2f6f41c37c3509630e/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/22b6e1a923867d2f6f41c37c3509630e/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1839756975d7dfd580208131fe898b01/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1839756975d7dfd580208131fe898b01/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b76c75e3aa55c54ac26631bff75f6f36/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b76c75e3aa55c54ac26631bff75f6f36/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2bf930263fc944d7825a0c9e598b92c4/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2bf930263fc944d7825a0c9e598b92c4/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/204f2d0a63460d649fd75a56e3cf8870/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/204f2d0a63460d649fd75a56e3cf8870/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/38ceb649bc3ef115fbf94a687ab58809/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/38ceb649bc3ef115fbf94a687ab58809/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/885242c796d785f22fbc0bcd91bd866b/transformed/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/885242c796d785f22fbc0bcd91bd866b/transformed/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1dbcc790c2efce798b35c2c9dbf84a29/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1dbcc790c2efce798b35c2c9dbf84a29/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/531df76ab075955d2e5f2e85684c1cf0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/531df76ab075955d2e5f2e85684c1cf0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/33ed6f1701ee54344530dd7f2a88a2d3/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/33ed6f1701ee54344530dd7f2a88a2d3/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8bafacd48723a57826cb2181bd06b122/transformed/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8bafacd48723a57826cb2181bd06b122/transformed/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/ca43d677f2ecb207949ced85b67e9cc7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/ca43d677f2ecb207949ced85b67e9cc7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/a93b7de3bc59da2af5147b07b2bf8b8d/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/a93b7de3bc59da2af5147b07b2bf8b8d/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/00bc3f8ddfcaf6e52b1f025786569bce/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/00bc3f8ddfcaf6e52b1f025786569bce/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/86c1de2189aa96196b641087122cd488/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/86c1de2189aa96196b641087122cd488/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2a5020c24cfda9fc3d02a1e14fafcf0c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2a5020c24cfda9fc3d02a1e14fafcf0c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/993457c521b407ab52c4c8651662ed64/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/993457c521b407ab52c4c8651662ed64/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/6ec0bebf92031ffdeef1c3364f32586b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/6ec0bebf92031ffdeef1c3364f32586b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2af1bfb8c788c38e6c1c1d17535f2ba8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2af1bfb8c788c38e6c1c1d17535f2ba8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/62fb4bb96f32505fe2739183acb2d0a3/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/62fb4bb96f32505fe2739183acb2d0a3/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/0a8d95c14a2e630bb3cc5728e293b029/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/0a8d95c14a2e630bb3cc5728e293b029/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/631121e27484952a1fca6cc7d40f0b70/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/631121e27484952a1fca6cc7d40f0b70/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2be87b34b91f4a9c0dd2bdf37be373b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e2be87b34b91f4a9c0dd2bdf37be373b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/7c4b14c070c1e534951fd94a8d1e32e1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/7c4b14c070c1e534951fd94a8d1e32e1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1f103ece115e65ee08212490ba5165b2/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/1f103ece115e65ee08212490ba5165b2/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/406c62ff1def4cefd188dfb82cfd7cdb/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/406c62ff1def4cefd188dfb82cfd7cdb/transformed/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b70ddadd53d65a9844548b0ff2213aa1/transformed/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b70ddadd53d65a9844548b0ff2213aa1/transformed/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core:1.8.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8a050f9a7a69c8c3ed2e8455f4e0b41d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/8a050f9a7a69c8c3ed2e8455f4e0b41d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/fcc1f28a7eb00437e80c13c8e97b33f0/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/fcc1f28a7eb00437e80c13c8e97b33f0/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3073a8550d2e234bcf0ecf74203999e1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3073a8550d2e234bcf0ecf74203999e1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e6404abb359073569e2503bb8b9760db/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e6404abb359073569e2503bb8b9760db/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/15d016bd41f69adc35dd9eaabf0ae37f/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/15d016bd41f69adc35dd9eaabf0ae37f/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b0bdbcfbf8f2788a0109ba2692459497/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/b0bdbcfbf8f2788a0109ba2692459497/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/bd5df600638932fdc98aa768df38e6af/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/bd5df600638932fdc98aa768df38e6af/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/896638286ebb5d72418332163ef3f0dd/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/896638286ebb5d72418332163ef3f0dd/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/c1fa3d86d75b2d1369b2659e930ae392/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/c1fa3d86d75b2d1369b2659e930ae392/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e786339eff1dbd82cec23abf05fa12d3/transformed/jetified-timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e786339eff1dbd82cec23abf05fa12d3/transformed/jetified-timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/5bbaa060c12804a64da6cefa857c5a15/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/5bbaa060c12804a64da6cefa857c5a15/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:7:3-73
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:16:5-76
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:7:20-71
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:8:3-73
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:8:20-71
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:9:3-76
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:9:20-74
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:10:3-65
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:14:5-67
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:10:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:11:3-77
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:15:5-79
+MERGED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:11:20-74
+activity#com.trackasia.android.plugins.testapp.activity.TestActivity
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:14:5-17:54
+	android:label
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:16:9-52
+	android:theme
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:17:9-52
+	android:name
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:15:9-46
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:22-74
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:29:9-32:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:32:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:33:9-36:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:36:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:34:13-70
+provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:38:9-46:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:42:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:40:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:39:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:43:13-45:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:45:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:44:17-67
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:48:9-61:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:53:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:50:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:52:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:51:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:49:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:62:9-71:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:68:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:64:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:67:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:65:13-46
+	android:roundIcon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:69:13-57
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:66:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:63:13-93
+activity#com.trackasia.android.plugins.offline.ui.OfflineActivity
+ADDED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:125
+	android:configChanges
+		ADDED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-122
+	android:name
+		ADDED from [:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-84
+uses-feature#0x00020000
+ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:7:5-9:35
+	android:glEsVersion
+		ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:8:9-41
+	android:required
+		ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:9:9-32
+uses-feature#android.hardware.wifi
+ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:10:5-12:36
+	android:required
+		ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:12:9-33
+	android:name
+		ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:11:9-45
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:17:22-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

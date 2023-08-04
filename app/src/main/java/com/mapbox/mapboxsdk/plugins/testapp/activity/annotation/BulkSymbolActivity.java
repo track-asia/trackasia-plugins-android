@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.annotation;
+package com.trackasia.android.plugins.testapp.activity.annotation;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -18,19 +18,19 @@ import android.widget.Spinner;
 import com.mapbox.geojson.Feature;
 import com.mapbox.geojson.FeatureCollection;
 import com.mapbox.geojson.Point;
-import com.mapbox.mapboxsdk.Mapbox;
-import com.mapbox.mapboxsdk.WellKnownTileServer;
-import com.mapbox.mapboxsdk.camera.CameraUpdateFactory;
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.plugins.annotation.Symbol;
-import com.mapbox.mapboxsdk.plugins.annotation.SymbolManager;
-import com.mapbox.mapboxsdk.plugins.annotation.SymbolOptions;
-import com.mapbox.mapboxsdk.plugins.testapp.BuildConfig;
-import com.mapbox.mapboxsdk.plugins.testapp.R;
-import com.mapbox.mapboxsdk.plugins.testapp.Utils;
+import com.trackasia.android.Trackasia;
+import com.trackasia.android.WellKnownTileServer;
+import com.trackasia.android.camera.CameraUpdateFactory;
+import com.trackasia.android.geometry.LatLng;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.plugins.annotation.Symbol;
+import com.trackasia.android.plugins.annotation.SymbolManager;
+import com.trackasia.android.plugins.annotation.SymbolOptions;
+import com.trackasia.android.plugins.testapp.BuildConfig;
+import com.trackasia.android.plugins.testapp.R;
+import com.trackasia.android.plugins.testapp.Utils;
 
 import timber.log.Timber;
 
@@ -51,7 +51,7 @@ public class BulkSymbolActivity extends AppCompatActivity implements AdapterView
     private SymbolManager symbolManager;
     private List<Symbol> symbols = new ArrayList<>();
 
-    private MapboxMap mapboxMap;
+    private TrackasiaMap mapboxMap;
     private MapView mapView;
     private FeatureCollection locations;
     private ProgressDialog progressDialog;
@@ -60,13 +60,13 @@ public class BulkSymbolActivity extends AppCompatActivity implements AdapterView
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_annotation);
-        Mapbox.getInstance(this, BuildConfig.MAPTILER_API_KEY, WellKnownTileServer.MapTiler);
+        Trackasia.getInstance(this, BuildConfig.MAPTILER_API_KEY, WellKnownTileServer.MapTiler);
         mapView = findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this::initMap);
     }
 
-    private void initMap(MapboxMap mapboxMap) {
+    private void initMap(TrackasiaMap mapboxMap) {
         this.mapboxMap = mapboxMap;
         mapboxMap.moveCamera(
             CameraUpdateFactory.newLatLngZoom(

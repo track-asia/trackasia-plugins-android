@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.annotation;
+package com.trackasia.android.plugins.annotation;
 
 import android.graphics.PointF;
 
@@ -6,9 +6,9 @@ import com.mapbox.android.gestures.AndroidGesturesManager;
 import com.mapbox.android.gestures.MoveDistancesObject;
 import com.mapbox.android.gestures.MoveGestureDetector;
 import com.mapbox.geojson.Geometry;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.Projection;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.maps.Projection;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +37,7 @@ public class DraggableAnnotationControllerTest {
     private MapView mapView;
 
     @Mock
-    private MapboxMap mapboxMap;
+    private TrackasiaMap mapboxMap;
 
     @Mock
     private Projection projection;

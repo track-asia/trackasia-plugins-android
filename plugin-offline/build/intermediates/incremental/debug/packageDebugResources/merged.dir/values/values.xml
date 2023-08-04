@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mapbox_offline_bright_blue">#4a90e2</color>
+    <color name="mapbox_offline_dim_scrim">#44000000</color>
+    <color name="mapbox_offline_green">#58BA93</color>
+    <color name="mapbox_offline_light_navy">#949fac</color>
+    <color name="mapbox_offline_material_grey_200">#EEEEEE</color>
+    <color name="mapbox_offline_navy">#263d57</color>
+    <color name="mapbox_offline_white">#FFFFFF</color>
+    <dimen name="mapbox_offline_extended_toolbar_height">78dp</dimen>
+    <dimen name="mapbox_offline_image_view_left_margin">16dp</dimen>
+    <dimen name="mapbox_offline_region_name_snackbar_height">56dp</dimen>
+    <dimen name="mapbox_offline_scrim_padding">30dp</dimen>
+    <dimen name="mapbox_offline_text_left_margin">72dp</dimen>
+    <dimen name="mapbox_offline_toolbar_primary_text">20sp</dimen>
+    <dimen name="mapbox_offline_toolbar_secondary_text">14sp</dimen>
+    <string name="mapbox_offline_cd_exit_offline">Exit place picker</string>
+    <string name="mapbox_offline_default_region_name">Map </string>
+    <string name="mapbox_offline_notification_action_cancel">Cancel</string>
+    <string name="mapbox_offline_notification_default_content_text">Downloading..</string>
+    <string name="mapbox_offline_notification_default_content_title">Offline download</string>
+    <string name="mapbox_offline_toolbar_primary_text">Select a region</string>
+    <string name="mapbox_offline_toolbar_secondary_text">Pan and zoom to adjust</string>
+</resources>

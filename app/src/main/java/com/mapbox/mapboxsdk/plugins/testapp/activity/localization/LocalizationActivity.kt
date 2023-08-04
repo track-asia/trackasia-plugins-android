@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.localization
+package com.trackasia.android.plugins.testapp.activity.localization
 
 import android.os.Bundle
 import android.view.Menu
@@ -6,20 +6,20 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.mapbox.mapboxsdk.maps.MapView
-import com.mapbox.mapboxsdk.maps.MapboxMap
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback
-import com.mapbox.mapboxsdk.maps.Style
-import com.mapbox.mapboxsdk.plugins.localization.LocalizationPlugin
-import com.mapbox.mapboxsdk.plugins.localization.MapLocale
-import com.mapbox.mapboxsdk.plugins.testapp.R
-import com.mapbox.mapboxsdk.plugins.testapp.Utils
-import com.mapbox.mapboxsdk.plugins.testapp.databinding.ActivityLocalizationBinding
+import com.trackasia.android.maps.MapView
+import com.trackasia.android.maps.TrackasiaMap
+import com.trackasia.android.maps.OnMapReadyCallback
+import com.trackasia.android.maps.Style
+import com.trackasia.android.plugins.localization.LocalizationPlugin
+import com.trackasia.android.plugins.localization.MapLocale
+import com.trackasia.android.plugins.testapp.R
+import com.trackasia.android.plugins.testapp.Utils
+import com.trackasia.android.plugins.testapp.databinding.ActivityLocalizationBinding
 
 class LocalizationActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private var localizationPlugin: LocalizationPlugin? = null
-    private var mapboxMap: MapboxMap? = null
+    private var mapboxMap: TrackasiaMap? = null
     private var mapIsLocalized: Boolean = false
     private lateinit var mapView: MapView
     private lateinit var binding: ActivityLocalizationBinding
@@ -34,7 +34,7 @@ class LocalizationActivity : AppCompatActivity(), OnMapReadyCallback {
         mapView.onCreate(savedInstanceState)
     }
 
-    override fun onMapReady(mapboxMap: MapboxMap) {
+    override fun onMapReady(mapboxMap: TrackasiaMap) {
         mapboxMap.setStyle(Style.getPredefinedStyle("Streets")) { style ->
             this.mapboxMap = mapboxMap
             localizationPlugin =

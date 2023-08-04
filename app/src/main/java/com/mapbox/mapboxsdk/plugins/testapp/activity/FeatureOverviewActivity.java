@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity;
+package com.trackasia.android.plugins.testapp.activity;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -21,7 +21,7 @@ import android.widget.Toast;
 
 import com.mapbox.android.core.permissions.PermissionsListener;
 import com.mapbox.android.core.permissions.PermissionsManager;
-import com.mapbox.mapboxsdk.plugins.testapp.R;
+import com.trackasia.android.plugins.testapp.R;
 
 import androidx.annotation.IdRes;
 import androidx.annotation.LayoutRes;

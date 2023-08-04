@@ -18,23 +18,23 @@ Plugins are single-purpose libraries built on top of the [Mapbox Maps SDK for An
 
 ## Available Plugins
  
-* [**Annotation:** Simplify the way to set and adjust the visual properties of annotations on a map.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-annotation)
+* [**Annotation:** Simplify the way to set and adjust the visual properties of annotations on a map.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-annotation)
 
-* [**MarkerView:** Add map markers that are Android views.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-markerview)
+* [**MarkerView:** Add map markers that are Android views.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-markerview)
  
-* [**Traffic:** Adds a real-time traffic layer to any Mapbox base map.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-traffic)
+* [**Traffic:** Adds a real-time traffic layer to any Mapbox base map.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-traffic)
 
-* [**Location layer:** [Deprecated] Add a location marker on your map indicating the user's location.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-locationlayer)
+* [**Location layer:** [Deprecated] Add a location marker on your map indicating the user's location.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-locationlayer)
 
-* [**Building:** Add extruded "3D" buildings in your map style.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-building)
+* [**Building:** Add extruded "3D" buildings in your map style.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-building)
 
-* [**Offline:** Download maps tiles and manage downloaded regions for situations when a user's device doesn't have an internet connection.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-offline)
+* [**Offline:** Download maps tiles and manage downloaded regions for situations when a user's device doesn't have an internet connection.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-offline)
 
-* [**Places:** Add location search to your app with beautiful UI.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-places)
+* [**Places:** Add location search to your app with beautiful UI.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-places)
 
-* [**Localization:** Have your map's text automatically match the device's default language setting.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-localization)
+* [**Localization:** Have your map's text automatically match the device's default language setting.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-localization)
 
-* [**Scale bar:** Provide a visual map scale bar for your users to determine distance.](https://github.com//track-asia-vn/maplibre-plugins-android/tree/master/plugin-scalebar)
+* [**Scale bar:** Provide a visual map scale bar for your users to determine distance.](https://github.com/track-asia/trackasia-plugins-android/tree/master/plugin-scalebar)
 
 ## Installing a plugin
 
@@ -62,7 +62,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.mapbox.mapboxsdk:{PLUGIN_NAME}-v{MAJOR_MAPS_SDK_VERSION_NUMBER}:PLUGIN_VERSION_NUMBER'
+  implementation 'com.trackasia.android:{PLUGIN_NAME}-v{MAJOR_MAPS_SDK_VERSION_NUMBER}:PLUGIN_VERSION_NUMBER'
 }
 ```
 5. Replace SDK_REGISTRY_TOKEN with a Mapbox access token that has the downloads scope
@@ -98,4 +98,4 @@ Plugins' lightweight nature makes them much easier for you and anyone else to co
 
 We welcome contributions to this plugin repository!
 
-If you're interested in building and sharing your own plugin, please read [the contribution guide](https://github.com//track-asia-vn/maplibre-plugins-android/blob/master/CONTRIBUTING.md) to learn how to get started.
+If you're interested in building and sharing your own plugin, please read [the contribution guide](https://github.com/track-asia/trackasia-plugins-android/blob/master/CONTRIBUTING.md) to learn how to get started.

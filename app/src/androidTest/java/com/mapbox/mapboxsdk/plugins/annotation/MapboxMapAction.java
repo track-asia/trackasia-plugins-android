@@ -1,8 +1,8 @@
-package com.mapbox.mapboxsdk.plugins.annotation;
+package com.trackasia.android.plugins.annotation;
 
 import android.view.View;
 
-import com.mapbox.mapboxsdk.maps.MapboxMap;
+import com.trackasia.android.maps.TrackasiaMap;
 
 import org.hamcrest.Matcher;
 
@@ -16,9 +16,9 @@ import static androidx.test.espresso.matcher.ViewMatchers.withId;
 public class MapboxMapAction implements ViewAction {
 
     private OnInvokeActionListener invokeViewAction;
-    private MapboxMap mapboxMap;
+    private TrackasiaMap mapboxMap;
 
-    public MapboxMapAction(OnInvokeActionListener invokeViewAction, MapboxMap mapboxMap) {
+    public MapboxMapAction(OnInvokeActionListener invokeViewAction, TrackasiaMap mapboxMap) {
         this.invokeViewAction = invokeViewAction;
         this.mapboxMap = mapboxMap;
     }
@@ -43,7 +43,7 @@ public class MapboxMapAction implements ViewAction {
     }
 
     public interface OnInvokeActionListener {
-        void onInvokeAction(UiController uiController, MapboxMap mapboxMap);
+        void onInvokeAction(UiController uiController, TrackasiaMap mapboxMap);
     }
 }
 

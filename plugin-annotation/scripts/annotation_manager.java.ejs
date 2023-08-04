@@ -5,7 +5,7 @@
 -%>
 // This file is generated.
 
-package com.mapbox.mapboxsdk.plugins.annotation;
+package com.trackasia.android.plugins.annotation;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,21 +14,21 @@ import androidx.annotation.VisibleForTesting;
 
 import com.mapbox.geojson.Feature;
 import com.mapbox.geojson.FeatureCollection;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.style.expressions.Expression;
-import com.mapbox.mapboxsdk.style.layers.<%- camelize(type) %>Layer;
-import com.mapbox.mapboxsdk.style.layers.PropertyValue;
-import com.mapbox.mapboxsdk.style.layers.PropertyFactory;
-import com.mapbox.mapboxsdk.style.sources.GeoJsonOptions;
-import com.mapbox.mapboxsdk.style.layers.Property;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.style.expressions.Expression;
+import com.trackasia.android.style.layers.<%- camelize(type) %>Layer;
+import com.trackasia.android.style.layers.PropertyValue;
+import com.trackasia.android.style.layers.PropertyFactory;
+import com.trackasia.android.style.sources.GeoJsonOptions;
+import com.trackasia.android.style.layers.Property;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.mapbox.mapboxsdk.style.expressions.Expression.get;
-import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.*;
+import static com.trackasia.android.style.expressions.Expression.get;
+import static com.trackasia.android.style.layers.PropertyFactory.*;
 
 /**
  * The <%- type %> manager allows to add <%- type %>s to a map.
@@ -48,7 +48,7 @@ public class <%- camelize(type) %>Manager extends AnnotationManager<<%- camelize
      * @param style     a valid a fully loaded style object
      */
     @UiThread
-    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull MapboxMap mapboxMap, @NonNull Style style) {
+    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull TrackasiaMap mapboxMap, @NonNull Style style) {
         this(mapView, mapboxMap, style, null, (GeoJsonOptions) null);
     }
 
@@ -60,7 +60,7 @@ public class <%- camelize(type) %>Manager extends AnnotationManager<<%- camelize
      * @param belowLayerId the id of the layer above the circle layer
      */
     @UiThread
-    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull MapboxMap mapboxMap, @NonNull Style style, @Nullable String belowLayerId) {
+    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull TrackasiaMap mapboxMap, @NonNull Style style, @Nullable String belowLayerId) {
         this(mapView, mapboxMap, style, belowLayerId, (GeoJsonOptions) null);
     }
 
@@ -73,7 +73,7 @@ public class <%- camelize(type) %>Manager extends AnnotationManager<<%- camelize
      * @param geoJsonOptions options for the internal source
      */
     @UiThread
-    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull MapboxMap mapboxMap, @NonNull Style style, @Nullable String belowLayerId, @Nullable GeoJsonOptions geoJsonOptions) {
+    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull TrackasiaMap mapboxMap, @NonNull Style style, @Nullable String belowLayerId, @Nullable GeoJsonOptions geoJsonOptions) {
         this(mapView, mapboxMap, style, new <%- camelize(type) %>ElementProvider(), belowLayerId, geoJsonOptions, DraggableAnnotationController.getInstance(mapView, mapboxMap));
     }
 <% if (type === "symbol") { -%>
@@ -87,14 +87,14 @@ public class <%- camelize(type) %>Manager extends AnnotationManager<<%- camelize
      * @param clusterOptions options for the clustering configuration
      */
     @UiThread
-    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull MapboxMap mapboxMap, @NonNull Style style, @Nullable String belowLayerId, @NonNull ClusterOptions clusterOptions) {
+    public <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull TrackasiaMap mapboxMap, @NonNull Style style, @Nullable String belowLayerId, @NonNull ClusterOptions clusterOptions) {
         this(mapView, mapboxMap, style, new SymbolElementProvider(), belowLayerId, new GeoJsonOptions().withCluster(true).withClusterRadius(clusterOptions.getClusterRadius()).withClusterMaxZoom(clusterOptions.getClusterMaxZoom()), DraggableAnnotationController.getInstance(mapView, mapboxMap));
         clusterOptions.apply(style, coreElementProvider.getSourceId());
     }
 <% } -%>
 
     @VisibleForTesting
-    <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull MapboxMap mapboxMap, @NonNull Style style, @NonNull CoreElementProvider<<%- camelize(type) %>Layer> coreElementProvider, @Nullable String belowLayerId, @Nullable GeoJsonOptions geoJsonOptions, DraggableAnnotationController draggableAnnotationController) {
+    <%- camelize(type) %>Manager(@NonNull MapView mapView, @NonNull TrackasiaMap mapboxMap, @NonNull Style style, @NonNull CoreElementProvider<<%- camelize(type) %>Layer> coreElementProvider, @Nullable String belowLayerId, @Nullable GeoJsonOptions geoJsonOptions, DraggableAnnotationController draggableAnnotationController) {
         super(mapView, mapboxMap, style, coreElementProvider, draggableAnnotationController, belowLayerId, geoJsonOptions);
     }
 

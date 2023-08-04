@@ -1,14 +1,14 @@
-package com.mapbox.mapboxsdk.plugins;
+package com.trackasia.android.plugins;
 
 import android.app.Activity;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.plugins.annotation.MapboxMapAction;
-import com.mapbox.mapboxsdk.plugins.annotation.WaitAction;
-import com.mapbox.mapboxsdk.plugins.utils.OnMapReadyIdlingResource;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.plugins.annotation.MapboxMapAction;
+import com.trackasia.android.plugins.annotation.WaitAction;
+import com.trackasia.android.plugins.utils.OnMapReadyIdlingResource;
 
 import junit.framework.Assert;
 
@@ -38,7 +38,7 @@ public abstract class BaseActivityTest {
     @Rule
     public TestName testName = new TestName();
 
-    protected MapboxMap mapboxMap;
+    protected TrackasiaMap mapboxMap;
     protected OnMapReadyIdlingResource idlingResource;
 
     @Before
@@ -63,7 +63,7 @@ public abstract class BaseActivityTest {
         Assert.assertNotNull(mapboxMap);
     }
 
-    protected MapboxMap getMapboxMap() {
+    protected TrackasiaMap getMapboxMap() {
         return mapboxMap;
     }
 

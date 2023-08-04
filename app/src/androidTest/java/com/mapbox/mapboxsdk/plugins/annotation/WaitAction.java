@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.annotation;
+package com.trackasia.android.plugins.annotation;
 
 import android.view.View;
 

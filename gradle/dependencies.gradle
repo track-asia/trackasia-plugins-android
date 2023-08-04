@@ -7,9 +7,9 @@
   ]
 
   version = [
-      mapLibreAndroidSdk : '10.0.2',
-      mapLibreJava       : '5.9.0',
-      mapLibreTurf       : '5.9.0',
+      trackasiaAndroidSdk : '1.0.5',
+      trackasiaJava       : '5.9.0',
+      trackasiaTurf       : '5.9.0',
       playLocation       : '16.0.0',
       autoValue          : '1.5.4',
       autoValueParcel    : '0.2.6',
@@ -40,12 +40,12 @@
   ]
 
   dependenciesList = [
-          // MapLibre
-          mapLibreAndroidSdk     : "org.maplibre.gl:android-sdk:${version.mapLibreAndroidSdk}",
-          maplibreGeoJson        : "org.maplibre.gl:android-sdk-geojson:${version.maplibreJava}",
-          maplibreGeocoding      : "org.maplibre.gl:android-sdk-services:${version.maplibreJava}",
-          maplibreTurf           : "org.maplibre.gl:android-sdk-turf:${version.mapLibreTurf}",
-          maplibreCore           : "org.maplibre.gl:android-sdk-core:${version.mapLibreJava}",
+          // Trackasia
+          trackasiaAndroidSdk     : "io.github.track-asia:android-sdk:${version.trackasiaAndroidSdk}",
+          trackasiaGeoJson        : "io.github.track-asia:android-sdk-geojson:1.0.0",
+          trackasiaTurf           : "io.github.track-asia:android-sdk-turf:1.0.0",
+          trackasiaGeocoding      : "org.maplibre.gl:android-sdk-services:${version.trackasiaJava}",
+          trackasiaCore           : "org.maplibre.gl:android-sdk-core:${version.trackasiaJava}",
 
           // Google Play Location
           playLocation           : "com.google.android.gms:play-services-location:${version.playLocation}",

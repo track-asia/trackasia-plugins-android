@@ -1,18 +1,18 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.offline
+package com.trackasia.android.plugins.testapp.activity.offline
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.mapbox.mapboxsdk.camera.CameraPosition
-import com.mapbox.mapboxsdk.geometry.LatLng
-import com.mapbox.mapboxsdk.plugins.offline.OfflineRegionSelector
-import com.mapbox.mapboxsdk.plugins.offline.model.NotificationOptions
-import com.mapbox.mapboxsdk.plugins.offline.model.RegionSelectionOptions
-import com.mapbox.mapboxsdk.plugins.offline.offline.OfflinePlugin
-import com.mapbox.mapboxsdk.plugins.testapp.R
-import com.mapbox.mapboxsdk.plugins.testapp.databinding.ActivityOfflineUiComponentsBinding
+import com.trackasia.android.camera.CameraPosition
+import com.trackasia.android.geometry.LatLng
+import com.trackasia.android.plugins.offline.OfflineRegionSelector
+import com.trackasia.android.plugins.offline.model.NotificationOptions
+import com.trackasia.android.plugins.offline.model.RegionSelectionOptions
+import com.trackasia.android.plugins.offline.offline.OfflinePlugin
+import com.trackasia.android.plugins.testapp.R
+import com.trackasia.android.plugins.testapp.databinding.ActivityOfflineUiComponentsBinding
 import java.util.Locale
 
 class OfflineUiComponentsActivity : AppCompatActivity() {

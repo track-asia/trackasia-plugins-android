@@ -1,19 +1,19 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.ktx.maps
+package com.trackasia.android.plugins.testapp.activity.ktx.maps
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.mapbox.mapboxsdk.geometry.LatLng
-import com.mapbox.mapboxsdk.maps.MapView
-import com.mapbox.mapboxsdk.maps.MapboxMap
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback
-import com.mapbox.mapboxsdk.maps.Style
-import com.mapbox.mapboxsdk.plugins.maps.queryRenderedFeatures
-import com.mapbox.mapboxsdk.plugins.testapp.databinding.ActivityMapsKtxBinding
+import com.trackasia.android.geometry.LatLng
+import com.trackasia.android.maps.MapView
+import com.trackasia.android.maps.TrackasiaMap
+import com.trackasia.android.maps.OnMapReadyCallback
+import com.trackasia.android.maps.Style
+import com.trackasia.android.plugins.maps.queryRenderedFeatures
+import com.trackasia.android.plugins.testapp.databinding.ActivityMapsKtxBinding
 
-class MapboxKtxActivity : AppCompatActivity(), OnMapReadyCallback, MapboxMap.OnMapClickListener {
+class MapboxKtxActivity : AppCompatActivity(), OnMapReadyCallback, TrackasiaMap.OnMapClickListener {
 
-    private var mapboxMap: MapboxMap? = null
+    private var mapboxMap: TrackasiaMap? = null
 
     private lateinit var binding: ActivityMapsKtxBinding
     private lateinit var mapView: MapView
@@ -28,7 +28,7 @@ class MapboxKtxActivity : AppCompatActivity(), OnMapReadyCallback, MapboxMap.OnM
         mapView.getMapAsync(this)
     }
 
-    override fun onMapReady(mapboxMap: MapboxMap) {
+    override fun onMapReady(mapboxMap: TrackasiaMap) {
         this.mapboxMap = mapboxMap
         mapboxMap.setStyle(Style.getPredefinedStyle("Streets")) {
             mapboxMap.addOnMapClickListener(this)

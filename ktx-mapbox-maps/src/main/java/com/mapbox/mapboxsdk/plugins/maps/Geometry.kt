@@ -1,7 +1,7 @@
-package com.mapbox.mapboxsdk.plugins.maps
+package com.trackasia.android.plugins.maps
 
 import com.mapbox.geojson.Point
-import com.mapbox.mapboxsdk.geometry.LatLng
+import com.trackasia.android.geometry.LatLng
 
 /**
  * Returns a LatLng representation

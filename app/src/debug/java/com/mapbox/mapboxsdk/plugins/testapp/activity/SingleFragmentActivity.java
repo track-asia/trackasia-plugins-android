@@ -1,10 +1,10 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity;
+package com.trackasia.android.plugins.testapp.activity;
 
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.mapbox.mapboxsdk.plugins.testapp.R;
+import com.trackasia.android.plugins.testapp.R;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

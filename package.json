@@ -1,10 +1,10 @@
 {
-  "name": "maplibre-plugins-android",
-  "description": "Node configuration for maplibre plugins android",
+  "name": "trackasia-plugins-android",
+  "description": "Node configuration for trackasia plugins android",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com//track-asia-vn/maplibre-plugins-android.git"
+    "url": "git://github.com/track-asia/trackasia-plugins-android.git"
   },
   "license": "BSD-2-Clause",
   "dependencies": {

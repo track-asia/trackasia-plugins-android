@@ -1,18 +1,18 @@
-package com.mapbox.mapboxsdk.plugins.localization;
+package com.trackasia.android.plugins.localization;
 
 
-import com.mapbox.mapboxsdk.camera.CameraUpdateFactory;
-import com.mapbox.mapboxsdk.geometry.LatLngBounds;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.plugins.localization.MapLocale.Languages;
-import com.mapbox.mapboxsdk.style.expressions.Expression;
-import com.mapbox.mapboxsdk.style.layers.Layer;
-import com.mapbox.mapboxsdk.style.layers.PropertyValue;
-import com.mapbox.mapboxsdk.style.layers.SymbolLayer;
-import com.mapbox.mapboxsdk.style.sources.Source;
-import com.mapbox.mapboxsdk.style.sources.VectorSource;
+import com.trackasia.android.camera.CameraUpdateFactory;
+import com.trackasia.android.geometry.LatLngBounds;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.plugins.localization.MapLocale.Languages;
+import com.trackasia.android.style.expressions.Expression;
+import com.trackasia.android.style.layers.Layer;
+import com.trackasia.android.style.layers.PropertyValue;
+import com.trackasia.android.style.layers.SymbolLayer;
+import com.trackasia.android.style.sources.Source;
+import com.trackasia.android.style.sources.VectorSource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +23,8 @@ import androidx.annotation.UiThread;
 
 import timber.log.Timber;
 
-import static com.mapbox.mapboxsdk.style.expressions.Expression.raw;
-import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.textField;
+import static com.trackasia.android.style.expressions.Expression.raw;
+import static com.trackasia.android.style.layers.PropertyFactory.textField;
 
 /**
  * Useful class for quickly adjusting the maps language and the maps camera starting position.
@@ -92,7 +92,7 @@ public final class LocalizationPlugin {
     private static final String STEP_TEMPLATE = "[\"zoom\"], \"\", ";
 
     // configuration
-    private final MapboxMap mapboxMap;
+    private final TrackasiaMap mapboxMap;
     private MapLocale mapLocale;
     @NonNull
     private Style style;
@@ -104,7 +104,7 @@ public final class LocalizationPlugin {
      * @param mapboxMap the Mapbox map object which your current map view is using for control
      * @param style     the Style object that represents a fully loaded style
      */
-    public LocalizationPlugin(@NonNull MapView mapView, @NonNull final MapboxMap mapboxMap, @NonNull Style style) {
+    public LocalizationPlugin(@NonNull MapView mapView, @NonNull final TrackasiaMap mapboxMap, @NonNull Style style) {
         this.mapboxMap = mapboxMap;
         this.style = style;
         if (!style.isFullyLoaded()) {

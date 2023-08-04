@@ -26,8 +26,8 @@ android {
 dependencies {
     implementation dependenciesList.supportAppcompatV7
     implementation dependenciesList.supportAnnotation
-    implementation dependenciesList.mapLibreAndroidSdk
-    javadocDeps dependenciesList.mapLibreAndroidSdk
+    implementation dependenciesList.trackasiaAndroidSdk
+    javadocDeps dependenciesList.trackasiaAndroidSdk
     testImplementation dependenciesList.kotlin
     testImplementation dependenciesList.mockk
     testImplementation dependenciesList.junit

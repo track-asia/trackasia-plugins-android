@@ -1,0 +1,622 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trackasia.android.plugins.testapp" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+7        android:targetSdkVersion="30" />
+8
+9    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+9-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:5:3-76
+9-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:5:20-74
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:6:3-78
+10-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:6:20-76
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:7:3-73
+11-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:7:20-71
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:8:3-73
+12-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:8:20-71
+13    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+13-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:9:3-76
+13-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:9:20-74
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:10:3-65
+14-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:10:20-62
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:11:3-77
+15-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:11:20-74
+16    <!-- To store the heap dumps and leak analysis results. -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+17-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:5-80
+17-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:23:22-77
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:5-77
+18-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:26:22-74
+19
+20    <uses-feature
+20-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:7:5-9:35
+21        android:glEsVersion="0x00020000"
+21-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:8:9-41
+22        android:required="true" />
+22-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:9:9-32
+23    <uses-feature
+23-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:10:5-12:36
+24        android:name="android.hardware.wifi"
+24-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:11:9-45
+25        android:required="false" />
+25-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:12:9-33
+26
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:17:5-81
+27-->[io.github.track-asia:android-sdk:1.0.5] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/AndroidManifest.xml:17:22-78
+28
+29    <application
+29-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:8:3-250:17
+30        android:name="com.trackasia.android.plugins.testapp.PluginApplication"
+30-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:9:11-44
+31        android:allowBackup="true"
+31-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:10:11-37
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.8.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:11:11-45
+35        android:label="@string/app_name"
+35-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:12:11-43
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:13:11-56
+37        android:supportsRtl="true"
+37-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:14:11-37
+38        android:theme="@style/AppTheme" >
+38-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:15:11-42
+39        <activity
+39-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:14:5-17:54
+40            android:name="com.trackasia.android.plugins.testapp.activity.TestActivity"
+40-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:15:9-46
+41            android:label="@string/title_activity_test"
+41-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:16:9-52
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/debug/AndroidManifest.xml:17:9-52
+43        <activity
+43-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:17:5-23:16
+44            android:name="com.trackasia.android.plugins.testapp.activity.FeatureOverviewActivity"
+44-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:17:15-63
+45            android:exported="true" >
+45-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:18:9-32
+46            <intent-filter>
+46-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:19:7-22:23
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:20:9-60
+47-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:20:17-58
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:21:9-68
+49-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:21:19-66
+50            </intent-filter>
+51        </activity> <!-- <activity -->
+52        <!-- android:name=".activity.traffic.TrafficActivity" -->
+53        <!-- android:description="@string/description_traffic" -->
+54        <!-- android:label="@string/title_traffic"> -->
+55        <!-- <meta-data -->
+56        <!-- android:name="@string/category" -->
+57        <!-- android:value="@string/category_navigation"/> -->
+58        <!-- <meta-data -->
+59        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+60        <!-- android:value=".activity.FeatureOverviewActivity"/> -->
+61        <!-- </activity> -->
+62        <!-- <activity -->
+63        <!-- android:name=".activity.building.BuildingActivity" -->
+64        <!-- android:description="@string/description_building" -->
+65        <!-- android:label="@string/title_building"> -->
+66        <!-- <meta-data -->
+67        <!-- android:name="@string/category" -->
+68        <!-- android:value="@string/category_extrusions"/> -->
+69        <!-- <meta-data -->
+70        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+71        <!-- android:value=".activity.FeatureOverviewActivity"/> -->
+72        <!-- </activity> -->
+73        <activity
+73-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:46:5-56:16
+74            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineDownloadActivity"
+74-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:47:7-63
+75            android:description="@string/description_offline_plugin"
+75-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:48:7-63
+76            android:label="@string/title_offline_plugin" >
+76-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:49:7-51
+77            <meta-data
+77-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+78                android:name="@string/category"
+78-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+79                android:value="@string/category_offline" />
+79-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+80            <meta-data
+80-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+81                android:name="android.support.PARENT_ACTIVITY"
+81-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+82                android:value=".activity.FeatureOverviewActivity" />
+82-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+83        </activity>
+84        <activity
+84-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:57:5-67:16
+85            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineUiComponentsActivity"
+85-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:58:7-67
+86            android:description="@string/description_offline_ui_components"
+86-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:59:7-70
+87            android:label="@string/title_offline_ui_components" >
+87-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:60:7-58
+88            <meta-data
+88-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+89                android:name="@string/category"
+89-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+90                android:value="@string/category_offline" />
+90-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+91            <meta-data
+91-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+92                android:name="android.support.PARENT_ACTIVITY"
+92-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+93                android:value=".activity.FeatureOverviewActivity" />
+93-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+94        </activity>
+95        <activity
+95-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:68:5-78:16
+96            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineRegionListActivity"
+96-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:69:7-65
+97            android:description="@string/description_offline_regions"
+97-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:70:7-64
+98            android:label="@string/title_offline_regions" >
+98-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:71:7-52
+99            <meta-data
+99-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+100                android:name="@string/category"
+100-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+101                android:value="@string/category_offline" />
+101-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+102            <meta-data
+102-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+103                android:name="android.support.PARENT_ACTIVITY"
+103-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+104                android:value=".activity.FeatureOverviewActivity" />
+104-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+105        </activity>
+106        <activity
+106-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:79:5-83:43
+107            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineRegionDetailActivity"
+107-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:80:7-67
+108            android:description="@string/description_offline_regions"
+108-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:81:7-64
+109            android:label="@string/title_offline_regions"
+109-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:82:7-52
+110            android:theme="@style/Translucent" />
+110-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:83:7-41
+111        <activity
+111-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:84:5-94:16
+112            android:name="com.trackasia.android.plugins.testapp.activity.localization.LocalizationActivity"
+112-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:85:7-65
+113            android:description="@string/description_localization"
+113-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:86:7-61
+114            android:label="@string/title_localization" >
+114-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:87:7-49
+115            <meta-data
+115-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+116                android:name="@string/category"
+116-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+117                android:value="@string/category_localization" />
+117-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+118            <meta-data
+118-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+119                android:name="android.support.PARENT_ACTIVITY"
+119-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+120                android:value=".activity.FeatureOverviewActivity" />
+120-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+121        </activity>
+122        <activity
+122-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:95:5-105:16
+123            android:name="com.trackasia.android.plugins.testapp.activity.annotation.SymbolActivity"
+123-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:96:13-63
+124            android:description="@string/description_symbol"
+124-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:97:13-61
+125            android:label="@string/title_symbol" >
+125-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:98:13-49
+126            <meta-data
+126-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+127                android:name="@string/category"
+127-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+128                android:value="@string/category_annotation" />
+128-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+129            <meta-data
+129-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+130                android:name="android.support.PARENT_ACTIVITY"
+130-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+131                android:value=".activity.FeatureOverviewActivity" />
+131-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+132        </activity>
+133        <activity
+133-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:106:5-116:16
+134            android:name="com.trackasia.android.plugins.testapp.activity.annotation.PressForSymbolActivity"
+134-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:107:13-71
+135            android:description="@string/description_symbol_press"
+135-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:108:13-67
+136            android:label="@string/title_symbol_press" >
+136-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:109:13-55
+137            <meta-data
+137-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+138                android:name="@string/category"
+138-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+139                android:value="@string/category_annotation" />
+139-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+140            <meta-data
+140-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+141                android:name="android.support.PARENT_ACTIVITY"
+141-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+142                android:value=".activity.FeatureOverviewActivity" />
+142-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+143        </activity>
+144        <activity
+144-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:117:5-127:16
+145            android:name="com.trackasia.android.plugins.testapp.activity.annotation.BulkSymbolActivity"
+145-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:118:13-67
+146            android:description="@string/description_symbol_bulk"
+146-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:119:13-66
+147            android:label="@string/title_symbol_bulk" >
+147-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:120:13-54
+148            <meta-data
+148-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+149                android:name="@string/category"
+149-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+150                android:value="@string/category_annotation" />
+150-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+151            <meta-data
+151-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+152                android:name="android.support.PARENT_ACTIVITY"
+152-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+153                android:value=".activity.FeatureOverviewActivity" />
+153-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+154        </activity>
+155        <activity
+155-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:128:5-138:16
+156            android:name="com.trackasia.android.plugins.testapp.activity.annotation.ClusterSymbolActivity"
+156-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:129:9-66
+157            android:description="@string/description_symbol_cluster"
+157-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:130:9-65
+158            android:label="@string/title_symbol_cluster" >
+158-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:131:9-53
+159            <meta-data
+159-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+160                android:name="@string/category"
+160-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+161                android:value="@string/category_annotation" />
+161-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+162            <meta-data
+162-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+163                android:name="android.support.PARENT_ACTIVITY"
+163-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+164                android:value=".activity.FeatureOverviewActivity" />
+164-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+165        </activity>
+166        <activity
+166-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:139:5-149:16
+167            android:name="com.trackasia.android.plugins.testapp.activity.annotation.DynamicSymbolChangeActivity"
+167-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:140:13-76
+168            android:description="@string/description_symbol_change"
+168-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:141:13-68
+169            android:label="@string/title_symbol_change" >
+169-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:142:13-56
+170            <meta-data
+170-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+171                android:name="@string/category"
+171-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+172                android:value="@string/category_annotation" />
+172-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+173            <meta-data
+173-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+174                android:name="android.support.PARENT_ACTIVITY"
+174-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+175                android:value=".activity.FeatureOverviewActivity" />
+175-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+176        </activity>
+177        <activity
+177-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:150:5-160:16
+178            android:name="com.trackasia.android.plugins.testapp.activity.annotation.FillActivity"
+178-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:151:13-61
+179            android:description="@string/description_fill"
+179-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:152:13-59
+180            android:label="@string/title_fill" >
+180-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:153:13-47
+181            <meta-data
+181-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+182                android:name="@string/category"
+182-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+183                android:value="@string/category_annotation" />
+183-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+184            <meta-data
+184-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+185                android:name="android.support.PARENT_ACTIVITY"
+185-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+186                android:value=".activity.FeatureOverviewActivity" />
+186-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+187        </activity>
+188        <activity
+188-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:161:5-171:16
+189            android:name="com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity"
+189-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:162:13-67
+190            android:description="@string/description_fill_change"
+190-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:163:13-66
+191            android:label="@string/title_fill_change" >
+191-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:164:13-54
+192            <meta-data
+192-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+193                android:name="@string/category"
+193-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+194                android:value="@string/category_annotation" />
+194-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+195            <meta-data
+195-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+196                android:name="android.support.PARENT_ACTIVITY"
+196-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+197                android:value=".activity.FeatureOverviewActivity" />
+197-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+198        </activity>
+199        <activity
+199-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:172:5-182:16
+200            android:name="com.trackasia.android.plugins.testapp.activity.annotation.CircleActivity"
+200-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:173:13-63
+201            android:description="@string/description_circle"
+201-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:174:13-61
+202            android:label="@string/title_circle" >
+202-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:175:13-49
+203            <meta-data
+203-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+204                android:name="@string/category"
+204-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+205                android:value="@string/category_annotation" />
+205-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+206            <meta-data
+206-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+207                android:name="android.support.PARENT_ACTIVITY"
+207-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+208                android:value=".activity.FeatureOverviewActivity" />
+208-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+209        </activity>
+210        <activity
+210-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:183:5-193:16
+211            android:name="com.trackasia.android.plugins.testapp.activity.annotation.LineActivity"
+211-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:184:13-61
+212            android:description="@string/description_line"
+212-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:185:13-59
+213            android:label="@string/title_line" >
+213-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:186:13-47
+214            <meta-data
+214-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+215                android:name="@string/category"
+215-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+216                android:value="@string/category_annotation" />
+216-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+217            <meta-data
+217-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+218                android:name="android.support.PARENT_ACTIVITY"
+218-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+219                android:value=".activity.FeatureOverviewActivity" />
+219-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+220        </activity>
+221        <activity
+221-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:194:5-204:16
+222            android:name="com.trackasia.android.plugins.testapp.activity.annotation.LineChangeActivity"
+222-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:195:13-67
+223            android:description="@string/description_line_change"
+223-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:196:13-66
+224            android:label="@string/title_line_change" >
+224-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:197:13-54
+225            <meta-data
+225-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+226                android:name="@string/category"
+226-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+227                android:value="@string/category_annotation" />
+227-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+228            <meta-data
+228-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+229                android:name="android.support.PARENT_ACTIVITY"
+229-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+230                android:value=".activity.FeatureOverviewActivity" />
+230-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+231        </activity>
+232        <activity
+232-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:205:5-215:16
+233            android:name="com.trackasia.android.plugins.testapp.activity.markerview.MarkerViewActivity"
+233-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:206:13-67
+234            android:description="@string/description_markerview"
+234-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:207:13-65
+235            android:label="@string/title_markerview" >
+235-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:208:13-53
+236            <meta-data
+236-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+237                android:name="@string/category"
+237-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+238                android:value="@string/category_markerview" />
+238-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+239            <meta-data
+239-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+240                android:name="android.support.PARENT_ACTIVITY"
+240-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+241                android:value=".activity.FeatureOverviewActivity" />
+241-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+242        </activity>
+243        <activity
+243-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:217:5-227:16
+244            android:name="com.trackasia.android.plugins.testapp.activity.ktx.maps.MapboxKtxActivity"
+244-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:218:13-64
+245            android:description="@string/description_ktx"
+245-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:219:13-58
+246            android:label="@string/title_ktx" >
+246-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:220:13-46
+247            <meta-data
+247-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+248                android:name="@string/category"
+248-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+249                android:value="@string/category_ktx" />
+249-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+250            <meta-data
+250-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+251                android:name="android.support.PARENT_ACTIVITY"
+251-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+252                android:value=".activity.FeatureOverviewActivity" />
+252-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+253        </activity>
+254        <activity
+254-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:229:5-239:16
+255            android:name="com.trackasia.android.plugins.testapp.activity.scalebar.ScalebarActivity"
+255-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:230:13-63
+256            android:description="@string/description_scalebar"
+256-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:231:13-63
+257            android:label="@string/title_scalebar" >
+257-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:232:13-51
+258            <meta-data
+258-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:50:7-52:51
+259                android:name="@string/category"
+259-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:51:9-40
+260                android:value="@string/category_scalebar" />
+260-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:52:9-49
+261            <meta-data
+261-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:53:7-55:60
+262                android:name="android.support.PARENT_ACTIVITY"
+262-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:54:9-55
+263                android:value=".activity.FeatureOverviewActivity" />
+263-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:55:9-58
+264        </activity>
+265
+266        <service
+266-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:241:5-243:33
+267            android:name="com.trackasia.android.plugins.offline.offline.OfflineDownloadService"
+267-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:242:7-90
+268            android:exported="false" />
+268-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:243:7-31
+269
+270        <receiver android:name="com.trackasia.android.plugins.offline.offline.OfflineDownloadStateReceiver" >
+270-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:245:5-249:16
+270-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:245:15-104
+271            <intent-filter>
+271-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:246:7-248:23
+272                <action android:name="com.trackasia.android.plugins.offline" />
+272-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:247:9-71
+272-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:247:17-69
+273            </intent-filter>
+274        </receiver>
+275
+276        <service
+276-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:29:9-32:45
+277            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+277-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:30:13-80
+278            android:enabled="false"
+278-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:31:13-36
+279            android:process=":leakcanary" />
+279-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:32:13-42
+280        <service
+280-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:33:9-36:45
+281            android:name="com.squareup.leakcanary.DisplayLeakService"
+281-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:34:13-70
+282            android:enabled="false"
+282-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:35:13-36
+283            android:process=":leakcanary" />
+283-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:36:13-42
+284
+285        <provider
+285-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:38:9-46:20
+286            android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
+286-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:39:13-83
+287            android:authorities="com.squareup.leakcanary.fileprovider.com.trackasia.android.plugins.testapp"
+287-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:40:13-88
+288            android:exported="false"
+288-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:41:13-37
+289            android:grantUriPermissions="true" >
+289-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:42:13-47
+290            <meta-data
+290-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:43:13-45:66
+291                android:name="android.support.FILE_PROVIDER_PATHS"
+291-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:44:17-67
+292                android:resource="@xml/leak_canary_file_paths" />
+292-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:45:17-63
+293        </provider>
+294
+295        <activity
+295-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:48:9-61:20
+296            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+296-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:49:13-80
+297            android:enabled="false"
+297-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:50:13-36
+298            android:icon="@mipmap/leak_canary_icon"
+298-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:51:13-52
+299            android:label="@string/leak_canary_display_activity_label"
+299-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:52:13-71
+300            android:process=":leakcanary"
+300-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:53:13-42
+301            android:taskAffinity="com.squareup.leakcanary.com.trackasia.android.plugins.testapp"
+301-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:54:13-76
+302            android:theme="@style/leak_canary_LeakCanary.Base" >
+302-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:55:13-63
+303            <intent-filter>
+303-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:19:7-22:23
+304                <action android:name="android.intent.action.MAIN" />
+304-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:20:9-60
+304-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:20:17-58
+305
+306                <category android:name="android.intent.category.LAUNCHER" />
+306-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:21:9-68
+306-->/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/app/src/main/AndroidManifest.xml:21:19-66
+307            </intent-filter>
+308        </activity>
+309        <activity
+309-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:62:9-71:68
+310            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+310-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:63:13-93
+311            android:enabled="false"
+311-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:64:13-36
+312            android:excludeFromRecents="true"
+312-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:65:13-46
+313            android:icon="@mipmap/leak_canary_icon"
+313-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:66:13-52
+314            android:label="@string/leak_canary_storage_permission_activity_label"
+314-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:67:13-82
+315            android:process=":leakcanary"
+315-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:68:13-42
+316            android:roundIcon="@mipmap/leak_canary_icon"
+316-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:69:13-57
+317            android:taskAffinity="com.squareup.leakcanary.com.trackasia.android.plugins.testapp"
+317-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:70:13-76
+318            android:theme="@style/leak_canary_Theme.Transparent" /> <!-- Offline download region picker activity -->
+318-->[com.squareup.leakcanary:leakcanary-android:1.6.3] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/13d28f1e272924ebfbb571743359e11c/transformed/jetified-leakcanary-android-1.6.3/AndroidManifest.xml:71:13-65
+319        <activity
+319-->[:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:125
+320            android:name="com.trackasia.android.plugins.offline.ui.OfflineActivity"
+320-->[:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-84
+321            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+321-->[:plugin-offline] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-offline/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-122
+322        <activity
+322-->[com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+323            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+323-->[com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+324            android:exported="false"
+324-->[com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+325            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+325-->[com.google.android.gms:play-services-base:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+326
+327        <meta-data
+327-->[com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+328            android:name="com.google.android.gms.version"
+328-->[com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+329            android:value="@integer/google_play_services_version" />
+329-->[com.google.android.gms:play-services-basement:16.0.1] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+330
+331        <provider
+331-->[androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+332            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+332-->[androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+333            android:authorities="com.trackasia.android.plugins.testapp.lifecycle-process"
+333-->[androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+334            android:exported="false"
+334-->[androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+335            android:multiprocess="true" />
+335-->[androidx.lifecycle:lifecycle-process:2.0.0] /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/47046424abb5e513096425d38f36eefa/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+336    </application>
+337
+338</manifest>

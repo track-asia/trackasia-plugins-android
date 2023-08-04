@@ -9,7 +9,7 @@ android {
   defaultConfig {
     minSdkVersion androidVersions.minSdkVersion
     targetSdkVersion androidVersions.targetSdkVersion
-    applicationId "com.mapbox.mapboxsdk.plugins.testapp"
+    applicationId "com.trackasia.android.plugins.testapp"
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     vectorDrawables.useSupportLibrary = true
 
@@ -60,13 +60,13 @@ dependencies {
   // Kotlin
   implementation dependenciesList.kotlin
 
-  // MapLibre
-  implementation(dependenciesList.mapLibreAndroidSdk, {
+  // Trackasia
+  implementation(dependenciesList.trackasiaAndroidSdk, {
     exclude group: 'android.arch.lifecycle'
     exclude group: 'com.google.android.gms'
   })
-  implementation dependenciesList.maplibreTurf
-  implementation dependenciesList.maplibreCore
+  implementation dependenciesList.trackasiaTurf
+  implementation dependenciesList.trackasiaCore
 
   // Architecture
   implementation dependenciesList.lifecycleExtensions

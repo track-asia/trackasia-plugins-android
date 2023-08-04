@@ -1,13 +1,13 @@
-package com.mapbox.mapboxsdk.plugins.scalebar;
+package com.trackasia.android.plugins.scalebar;
 
 
 import android.app.Activity;
 import android.view.View;
 
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.plugins.BaseActivityTest;
-import com.mapbox.mapboxsdk.plugins.testapp.R;
-import com.mapbox.mapboxsdk.plugins.testapp.activity.TestActivity;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.plugins.BaseActivityTest;
+import com.trackasia.android.plugins.testapp.R;
+import com.trackasia.android.plugins.testapp.activity.TestActivity;
 import com.mapbox.pluginscalebar.ScaleBarOptions;
 import com.mapbox.pluginscalebar.ScaleBarPlugin;
 import com.mapbox.pluginscalebar.ScaleBarWidget;
@@ -20,7 +20,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import timber.log.Timber;
 
-import static com.mapbox.mapboxsdk.plugins.annotation.MapboxMapAction.invoke;
+import static com.trackasia.android.plugins.annotation.MapboxMapAction.invoke;
 import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;

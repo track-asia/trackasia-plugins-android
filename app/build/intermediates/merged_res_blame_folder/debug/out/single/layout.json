@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_scalebar.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_scalebar.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_offline_ui_components.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_ui_components.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_annotation.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_annotation.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_feature_overview.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_feature_overview.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_offline_download.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_download.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_localization.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_localization.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_maps_ktx.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_maps_ktx.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/item_feature.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/item_feature.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_offline_region_list.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_region_list.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_offline_region_detail.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_offline_region_detail.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/section_feature.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/section_feature.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_test.xml",
+        "source": "com.trackasia.android.plugins.testapp-debug-28:/layout/activity_test.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/marker_view.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/marker_view.xml"
+    },
+    {
+        "merged": "com.trackasia.android.plugins.testapp-mergeDebugResources-26:/layout/activity_cluster.xml",
+        "source": "com.trackasia.android.plugins.testapp-main-29:/layout/activity_cluster.xml"
+    }
+]

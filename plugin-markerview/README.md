@@ -20,7 +20,7 @@ repositories {
 
 // In the app build.gradle file
 dependencies {
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:0.4.0'
+    implementation 'com.trackasia.android:mapbox-android-plugin-markerview-v9:0.4.0'
 }
 ```
 
@@ -37,7 +37,7 @@ repositories {
 
 // In the app build.gradle file
 dependencies {
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:0.5.0-SNAPSHOT'
+    implementation 'com.trackasia.android:mapbox-android-plugin-markerview-v9:0.5.0-SNAPSHOT'
 }
 ```
 

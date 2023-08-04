@@ -1,16 +1,16 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.scalebar
+package com.trackasia.android.plugins.testapp.activity.scalebar
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.mapbox.geojson.LineString
 import com.mapbox.geojson.Point
-import com.mapbox.mapboxsdk.maps.MapView
-import com.mapbox.mapboxsdk.maps.MapboxMap
-import com.mapbox.mapboxsdk.maps.Style
-import com.mapbox.mapboxsdk.plugins.testapp.R
-import com.mapbox.mapboxsdk.plugins.testapp.databinding.ActivityScalebarBinding
-import com.mapbox.mapboxsdk.style.layers.LineLayer
-import com.mapbox.mapboxsdk.style.sources.GeoJsonSource
+import com.trackasia.android.maps.MapView
+import com.trackasia.android.maps.TrackasiaMap
+import com.trackasia.android.maps.Style
+import com.trackasia.android.plugins.testapp.R
+import com.trackasia.android.plugins.testapp.databinding.ActivityScalebarBinding
+import com.trackasia.android.style.layers.LineLayer
+import com.trackasia.android.style.sources.GeoJsonSource
 import com.mapbox.pluginscalebar.ScaleBarOptions
 import com.mapbox.pluginscalebar.ScaleBarPlugin
 import com.mapbox.turf.TurfConstants
@@ -37,7 +37,7 @@ class ScalebarActivity : AppCompatActivity() {
         }
     }
 
-    private fun addScalebar(mapboxMap: MapboxMap) {
+    private fun addScalebar(mapboxMap: TrackasiaMap) {
         val scaleBarPlugin = ScaleBarPlugin(mapView, mapboxMap)
         val scaleBarOptions = ScaleBarOptions(this)
         scaleBarOptions

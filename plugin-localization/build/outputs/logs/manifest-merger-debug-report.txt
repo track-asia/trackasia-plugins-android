@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml:2:1-66
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml:2:1-66
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml:2:1-66
+	package
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml:2:11-63
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml:2:1-66
+uses-sdk
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+		ADDED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-plugins-android/plugin-localization/src/main/AndroidManifest.xml

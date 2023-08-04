@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.annotation;
+package com.trackasia.android.plugins.testapp.activity.annotation;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -6,18 +6,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.mapbox.mapboxsdk.camera.CameraPosition;
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.MapboxMapOptions;
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.plugins.annotation.Fill;
-import com.mapbox.mapboxsdk.plugins.annotation.FillManager;
-import com.mapbox.mapboxsdk.plugins.annotation.FillOptions;
-import com.mapbox.mapboxsdk.plugins.testapp.R;
-import com.mapbox.mapboxsdk.utils.ColorUtils;
+import com.trackasia.android.camera.CameraPosition;
+import com.trackasia.android.geometry.LatLng;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.TrackasiaMap;
+import com.trackasia.android.maps.TrackasiaMapOptions;
+import com.trackasia.android.maps.OnMapReadyCallback;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.plugins.annotation.Fill;
+import com.trackasia.android.plugins.annotation.FillManager;
+import com.trackasia.android.plugins.annotation.FillOptions;
+import com.trackasia.android.plugins.testapp.R;
+import com.trackasia.android.utils.ColorUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,14 +25,14 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.BLUE_COLOR;
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.BROKEN_SHAPE_POINTS;
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.FULL_ALPHA;
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.NO_ALPHA;
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.PARTIAL_ALPHA;
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.RED_COLOR;
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.STAR_SHAPE_HOLES;
-import static com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity.Config.STAR_SHAPE_POINTS;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.BLUE_COLOR;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.BROKEN_SHAPE_POINTS;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.FULL_ALPHA;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.NO_ALPHA;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.PARTIAL_ALPHA;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.RED_COLOR;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.STAR_SHAPE_HOLES;
+import static com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity.Config.STAR_SHAPE_POINTS;
 
 /**
  * Test activity to showcase the Polygon annotation API & programmatically creating a MapView.
@@ -58,7 +58,7 @@ public class FillChangeActivity extends AppCompatActivity implements OnMapReadyC
         super.onCreate(savedInstanceState);
 
         // configure initial map state
-        MapboxMapOptions options = new MapboxMapOptions()
+        TrackasiaMapOptions options = new TrackasiaMapOptions()
             .attributionTintColor(RED_COLOR)
             .compassFadesWhenFacingNorth(false)
             .camera(new CameraPosition.Builder()
@@ -77,7 +77,7 @@ public class FillChangeActivity extends AppCompatActivity implements OnMapReadyC
     }
 
     @Override
-    public void onMapReady(@NonNull MapboxMap map) {
+    public void onMapReady(@NonNull TrackasiaMap map) {
         map.setStyle(new Style.Builder().fromUri(Style.getPredefinedStyle("Streets")), style -> {
             fillManager = new FillManager(mapView, map, style, "aerialway");
             fillManager.addClickListener(fill -> {

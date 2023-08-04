@@ -1,6 +1,6 @@
-package com.mapbox.mapboxsdk.plugins.annotation;
+package com.trackasia.android.plugins.annotation;
 
-import com.mapbox.mapboxsdk.style.layers.PropertyValue;
+import com.trackasia.android.style.layers.PropertyValue;
 
 import org.mockito.ArgumentMatcher;
 

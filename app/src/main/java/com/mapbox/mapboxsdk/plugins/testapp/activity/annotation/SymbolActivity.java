@@ -1,4 +1,4 @@
-package com.mapbox.mapboxsdk.plugins.testapp.activity.annotation;
+package com.trackasia.android.plugins.testapp.activity.annotation;
 
 import android.animation.ValueAnimator;
 import android.graphics.Color;
@@ -13,21 +13,21 @@ import android.widget.Toast;
 
 import com.mapbox.geojson.FeatureCollection;
 import com.mapbox.geojson.Point;
-import com.mapbox.mapboxsdk.camera.CameraUpdateFactory;
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.Style;
-import com.mapbox.mapboxsdk.plugins.annotation.OnSymbolDragListener;
-import com.mapbox.mapboxsdk.plugins.annotation.Symbol;
-import com.mapbox.mapboxsdk.plugins.annotation.SymbolManager;
-import com.mapbox.mapboxsdk.plugins.annotation.SymbolOptions;
-import com.mapbox.mapboxsdk.plugins.testapp.R;
-import com.mapbox.mapboxsdk.plugins.testapp.Utils;
-import com.mapbox.mapboxsdk.style.expressions.Expression;
-import com.mapbox.mapboxsdk.style.layers.Property;
-import com.mapbox.mapboxsdk.style.sources.GeoJsonOptions;
-import com.mapbox.mapboxsdk.utils.BitmapUtils;
-import com.mapbox.mapboxsdk.utils.ColorUtils;
+import com.trackasia.android.camera.CameraUpdateFactory;
+import com.trackasia.android.geometry.LatLng;
+import com.trackasia.android.maps.MapView;
+import com.trackasia.android.maps.Style;
+import com.trackasia.android.plugins.annotation.OnSymbolDragListener;
+import com.trackasia.android.plugins.annotation.Symbol;
+import com.trackasia.android.plugins.annotation.SymbolManager;
+import com.trackasia.android.plugins.annotation.SymbolOptions;
+import com.trackasia.android.plugins.testapp.R;
+import com.trackasia.android.plugins.testapp.Utils;
+import com.trackasia.android.style.expressions.Expression;
+import com.trackasia.android.style.layers.Property;
+import com.trackasia.android.style.sources.GeoJsonOptions;
+import com.trackasia.android.utils.BitmapUtils;
+import com.trackasia.android.utils.ColorUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -39,10 +39,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import timber.log.Timber;
 
-import static com.mapbox.mapboxsdk.style.expressions.Expression.eq;
-import static com.mapbox.mapboxsdk.style.expressions.Expression.get;
-import static com.mapbox.mapboxsdk.style.expressions.Expression.not;
-import static com.mapbox.mapboxsdk.style.expressions.Expression.toNumber;
+import static com.trackasia.android.style.expressions.Expression.eq;
+import static com.trackasia.android.style.expressions.Expression.get;
+import static com.trackasia.android.style.expressions.Expression.not;
+import static com.trackasia.android.style.expressions.Expression.toNumber;
 
 /**
  * Activity showcasing adding symbols using the annotation plugin
