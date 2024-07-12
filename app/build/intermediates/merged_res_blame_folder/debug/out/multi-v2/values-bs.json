@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-bs/values-bs.xml",
+            "outputFile": "org.trackasia.android.plugins.testapp-mergeDebugResources-31:/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/res/values-bs/values-bs.xml",

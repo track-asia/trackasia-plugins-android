@@ -18,6 +18,7 @@ android {
         abortOnError false
     }
 
+
     testOptions {
         unitTests.returnDefaultValues true
     }
@@ -26,8 +27,8 @@ android {
 dependencies {
     implementation dependenciesList.supportAppcompatV7
     implementation dependenciesList.supportAnnotation
-    implementation dependenciesList.trackasiaAndroidSdk
-    javadocDeps dependenciesList.trackasiaAndroidSdk
+    implementation dependenciesList.trackAsiaAndroidSdk
+    javadocDeps dependenciesList.trackAsiaAndroidSdk
     testImplementation dependenciesList.kotlin
     testImplementation dependenciesList.mockk
     testImplementation dependenciesList.junit

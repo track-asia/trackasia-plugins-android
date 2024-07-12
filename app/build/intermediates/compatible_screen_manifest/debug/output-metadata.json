@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.trackasia.android.plugins.testapp",
+  "applicationId": "org.trackasia.android.plugins.testapp",
   "variantName": "debug",
   "elements": []
 }

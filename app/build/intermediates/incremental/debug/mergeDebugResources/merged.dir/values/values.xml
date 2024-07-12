@@ -200,9 +200,9 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">@color/mapboxRed</color>
-    <color name="colorPrimary">@color/mapboxBlue</color>
-    <color name="colorPrimaryDark">@color/mapboxBlueDark</color>
+    <color name="colorAccent">@color/trackasiaRed</color>
+    <color name="colorPrimary">@color/trackasiaBlue</color>
+    <color name="colorPrimaryDark">@color/trackasiaBlueDark</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -240,29 +240,6 @@
     <color name="leak_canary_icon_background">#3C3C3C</color>
     <color name="leak_canary_leak">#be383f</color>
     <color name="leak_canary_reference">#9976a8</color>
-    <color name="mapboxBlue">#3887BE</color>
-    <color name="mapboxBlueDark">#1F6EA5</color>
-    <color name="mapboxCyan">#3BB2D0</color>
-    <color name="mapboxDenim">#50667F</color>
-    <color name="mapboxGreen">#56B881</color>
-    <color name="mapboxMustard">#FBB03B</color>
-    <color name="mapboxNavy">#28353D</color>
-    <color name="mapboxNavyDark">#222B30</color>
-    <color name="mapboxOrange">#F9886C</color>
-    <color name="mapboxPink">#ED6498</color>
-    <color name="mapboxPurple">#8A8ACB</color>
-    <color name="mapboxPurpleDark">#7171b2</color>
-    <color name="mapboxPurpleLight">#A4A4E5</color>
-    <color name="mapboxRed">#E55E5E</color>
-    <color name="mapboxTeal">#41AFA5</color>
-    <color name="mapboxWhite">#ffffff</color>
-    <color name="mapbox_offline_bright_blue">#4a90e2</color>
-    <color name="mapbox_offline_dim_scrim">#44000000</color>
-    <color name="mapbox_offline_green">#58BA93</color>
-    <color name="mapbox_offline_light_navy">#949fac</color>
-    <color name="mapbox_offline_material_grey_200">#EEEEEE</color>
-    <color name="mapbox_offline_navy">#263d57</color>
-    <color name="mapbox_offline_white">#FFFFFF</color>
     <color name="materialDarkGrey">#DFDFDF</color>
     <color name="materialGrey">#F5F5F5</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -308,11 +285,34 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="trackasiaBlue">#3887BE</color>
+    <color name="trackasiaBlueDark">#1F6EA5</color>
+    <color name="trackasiaCyan">#3BB2D0</color>
+    <color name="trackasiaDenim">#50667F</color>
+    <color name="trackasiaGreen">#56B881</color>
+    <color name="trackasiaMustard">#FBB03B</color>
+    <color name="trackasiaNavy">#28353D</color>
+    <color name="trackasiaNavyDark">#222B30</color>
+    <color name="trackasiaOrange">#F9886C</color>
+    <color name="trackasiaPink">#ED6498</color>
+    <color name="trackasiaPurple">#8A8ACB</color>
+    <color name="trackasiaPurpleDark">#7171b2</color>
+    <color name="trackasiaPurpleLight">#A4A4E5</color>
+    <color name="trackasiaRed">#E55E5E</color>
+    <color name="trackasiaTeal">#41AFA5</color>
+    <color name="trackasiaWhite">#ffffff</color>
     <color name="trackasia_blue">#1E8CAB</color>
     <color name="trackasia_gray">#7D7F80</color>
     <color name="trackasia_gray_dark">#5F5F5F</color>
     <color name="trackasia_location_layer_blue">#4A90E2</color>
     <color name="trackasia_location_layer_gray">#A1B0C0</color>
+    <color name="trackasia_offline_bright_blue">#4a90e2</color>
+    <color name="trackasia_offline_dim_scrim">#44000000</color>
+    <color name="trackasia_offline_green">#58BA93</color>
+    <color name="trackasia_offline_light_navy">#949fac</color>
+    <color name="trackasia_offline_material_grey_200">#EEEEEE</color>
+    <color name="trackasia_offline_navy">#263d57</color>
+    <color name="trackasia_offline_white">#FFFFFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -477,20 +477,6 @@
     <dimen name="mapbox_defaultShovePixelThreshold">16dp</dimen>
     <dimen name="mapbox_internalMinSpan23">10mm</dimen>
     <dimen name="mapbox_internalMinSpan24">6mm</dimen>
-    <dimen name="mapbox_offline_extended_toolbar_height">78dp</dimen>
-    <dimen name="mapbox_offline_image_view_left_margin">16dp</dimen>
-    <dimen name="mapbox_offline_region_name_snackbar_height">56dp</dimen>
-    <dimen name="mapbox_offline_scrim_padding">30dp</dimen>
-    <dimen name="mapbox_offline_text_left_margin">72dp</dimen>
-    <dimen name="mapbox_offline_toolbar_primary_text">20sp</dimen>
-    <dimen name="mapbox_offline_toolbar_secondary_text">14sp</dimen>
-    <dimen name="mapbox_scale_bar_border_width">1dp</dimen>
-    <dimen name="mapbox_scale_bar_height">2dp</dimen>
-    <dimen name="mapbox_scale_bar_margin_left">10dp</dimen>
-    <dimen name="mapbox_scale_bar_margin_top">8dp</dimen>
-    <dimen name="mapbox_scale_bar_text_border_width">2dp</dimen>
-    <dimen name="mapbox_scale_bar_text_margin">2dp</dimen>
-    <dimen name="mapbox_scale_bar_text_size">8dp</dimen>
     <dimen name="mtrl_bottomappbar_fabOffsetEndMode">60dp</dimen>
     <dimen name="mtrl_bottomappbar_fab_cradle_margin">5dp</dimen>
     <dimen name="mtrl_bottomappbar_fab_cradle_rounded_corner_radius">8dp</dimen>
@@ -581,6 +567,20 @@
     <dimen name="trackasia_minimum_scale_velocity">225dp</dimen>
     <dimen name="trackasia_my_locationview_outer_circle">18dp</dimen>
     <dimen name="trackasia_ninety_two_dp">92dp</dimen>
+    <dimen name="trackasia_offline_extended_toolbar_height">78dp</dimen>
+    <dimen name="trackasia_offline_image_view_left_margin">16dp</dimen>
+    <dimen name="trackasia_offline_region_name_snackbar_height">56dp</dimen>
+    <dimen name="trackasia_offline_scrim_padding">30dp</dimen>
+    <dimen name="trackasia_offline_text_left_margin">72dp</dimen>
+    <dimen name="trackasia_offline_toolbar_primary_text">20sp</dimen>
+    <dimen name="trackasia_offline_toolbar_secondary_text">14sp</dimen>
+    <dimen name="trackasia_scale_bar_border_width">1dp</dimen>
+    <dimen name="trackasia_scale_bar_height">2dp</dimen>
+    <dimen name="trackasia_scale_bar_margin_left">10dp</dimen>
+    <dimen name="trackasia_scale_bar_margin_top">8dp</dimen>
+    <dimen name="trackasia_scale_bar_text_border_width">2dp</dimen>
+    <dimen name="trackasia_scale_bar_text_margin">2dp</dimen>
+    <dimen name="trackasia_scale_bar_text_size">8dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="accessibility_action_clickable_span" type="id"/>
@@ -633,6 +633,7 @@
     <item name="parent_matrix" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
+    <item name="report_drawn" type="id"/>
     <item name="save_image_matrix" type="id"/>
     <item name="save_non_transition_alpha" type="id"/>
     <item name="save_scale_type" type="id"/>
@@ -726,6 +727,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name" ns2:ignore="PrivateResource">Map Plugins</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
@@ -763,11 +765,11 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="description_autocomplete">Launch the autocomplete activity.</string>
     <string name="description_autocomplete_fragment">Launch the autocomplete fragment inside an activity</string>
-    <string name="description_building">Add 3D Building layer to a Mapbox map.</string>
+    <string name="description_building">Add 3D Building layer to a TrackAsia map.</string>
     <string name="description_circle">Show circles on a map</string>
     <string name="description_fill">Show fills on a map</string>
     <string name="description_fill_change">Show changing a fill on a map</string>
-    <string name="description_ktx">Test Mapbox Maps SDK for Android Kotlin extension functions</string>
+    <string name="description_ktx">Test TrackAsia Maps SDK for Android Kotlin extension functions</string>
     <string name="description_line">Show lines on a map</string>
     <string name="description_line_change">Show changing lines on a map</string>
     <string name="description_localization">Automatically localize the map labels into the device\'s set language.</string>
@@ -782,7 +784,7 @@
     <string name="description_symbol_change">Dynamically change a symbol on the map</string>
     <string name="description_symbol_cluster">Show fire hydrants in Washington DC area in a cluster.</string>
     <string name="description_symbol_press">Show a symbol by pressing the map</string>
-    <string name="description_traffic">Add Traffic layers to any Mapbox basemap.</string>
+    <string name="description_traffic">Add Traffic layers to any TrackAsia basemap.</string>
     <string name="detailed_description_place_picker">Example shows how to launch the Place Picker using the Floating action button and receiving a result in onActivityResult.</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
@@ -842,13 +844,6 @@
     <string name="map_localized">Map localized to device language</string>
     <string name="map_not_localized">Map not localized to device language and now set to French</string>
     <string name="mapbox_access_token">YOUR_MAPBOX_ACCESS_TOKEN_GOES_HERE</string>
-    <string name="mapbox_offline_cd_exit_offline">Exit place picker</string>
-    <string name="mapbox_offline_default_region_name">Map </string>
-    <string name="mapbox_offline_notification_action_cancel">Cancel</string>
-    <string name="mapbox_offline_notification_default_content_text">Downloading..</string>
-    <string name="mapbox_offline_notification_default_content_title">Offline download</string>
-    <string name="mapbox_offline_toolbar_primary_text">Select a region</string>
-    <string name="mapbox_offline_toolbar_secondary_text">Pan and zoom to adjust</string>
     <string name="max_zoom_textview">Max zoom: %1$d</string>
     <string name="min_zoom_textview">Min zoom: %1$d</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
@@ -866,7 +861,7 @@
     <string name="title_circle">Circle</string>
     <string name="title_fill">Fill</string>
     <string name="title_fill_change">Change Fill</string>
-    <string name="title_ktx">Mapbox Maps KTX</string>
+    <string name="title_ktx">TrackAsia Maps KTX</string>
     <string name="title_line">Line</string>
     <string name="title_line_change">Change Line</string>
     <string name="title_localization">Localization Plugin</string>
@@ -885,12 +880,19 @@
     <string name="title_symbol_press">Press for Symbol</string>
     <string name="title_traffic">Traffic Plugin</string>
     <string name="trackasia_attributionErrorNoBrowser">No web browser installed on device, can\'t open web page.</string>
-    <string name="trackasia_attributionsDialogTitle">Trackasia Maps SDK for Android</string>
+    <string name="trackasia_attributionsDialogTitle">TrackAsia Maps SDK for Android</string>
     <string name="trackasia_attributionsIconContentDescription">Attribution icon. Activate to show attribution dialog.</string>
     <string name="trackasia_compassContentDescription">Map compass. Activate to reset the map rotation to North.</string>
-    <string name="trackasia_mapActionDescription">Showing a Map created with Trackasia. Scroll by dragging two fingers. Zoom by pinching two fingers.</string>
+    <string name="trackasia_mapActionDescription">Showing a Map created with TrackAsia. Scroll by dragging two fingers. Zoom by pinching two fingers.</string>
     <string name="trackasia_myLocationViewContentDescription">Location View. This shows your location on the map.</string>
+    <string name="trackasia_offline_cd_exit_offline">Exit place picker</string>
+    <string name="trackasia_offline_default_region_name">Map </string>
     <string name="trackasia_offline_error_region_definition_invalid">Provided OfflineRegionDefinition doesn\'t fit the world bounds: %s</string>
+    <string name="trackasia_offline_notification_action_cancel">Cancel</string>
+    <string name="trackasia_offline_notification_default_content_text">Downloading..</string>
+    <string name="trackasia_offline_notification_default_content_title">Offline download</string>
+    <string name="trackasia_offline_toolbar_primary_text">Select a region</string>
+    <string name="trackasia_offline_toolbar_secondary_text">Pan and zoom to adjust</string>
     <string name="user_location_button_disabled">User location button disabled</string>
     <string name="user_location_button_enabled">User location button enabled</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

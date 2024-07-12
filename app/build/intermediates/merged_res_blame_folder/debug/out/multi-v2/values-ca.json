@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-ca/values-ca.xml",
+            "outputFile": "org.trackasia.android.plugins.testapp-mergeDebugResources-31:/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/2dc540b2046aa3cb8a37a76544508f90/transformed/jetified-play-services-base-16.0.1/res/values-ca/values.xml",
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/res/values-ca/values-ca.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,139,276,409,576,697",
-                        "endColumns": "83,136,132,166,120,156",
-                        "endOffsets": "134,271,404,571,692,849"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "5753,5837,5974,6107,6274,6395",
-                        "endColumns": "83,136,132,166,120,156",
-                        "endOffsets": "5832,5969,6102,6269,6390,6547"
-                    }
-                },
-                {
                     "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/res/values-ca/values-ca.xml",
                     "from": {
                         "startLines": "2",
@@ -69,6 +52,23 @@
                         "startOffsets": "5652",
                         "endColumns": "100",
                         "endOffsets": "5748"
+                    }
+                },
+                {
+                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/87e3286250a81c77d2ada9ec1c3ad1af/transformed/jetified-android-sdk-2.0.0/res/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,139,276,409,576,697",
+                        "endColumns": "83,136,132,166,120,156",
+                        "endOffsets": "134,271,404,571,692,849"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "5753,5837,5974,6107,6274,6395",
+                        "endColumns": "83,136,132,166,120,156",
+                        "endOffsets": "5832,5969,6102,6269,6390,6547"
                     }
                 },
                 {

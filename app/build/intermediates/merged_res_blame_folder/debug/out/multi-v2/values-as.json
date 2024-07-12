@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-as/values-as.xml",
+            "outputFile": "org.trackasia.android.plugins.testapp-mergeDebugResources-31:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/3628a611a8a52af8aa233b3c68d8e7db/transformed/jetified-play-services-basement-16.0.1/res/values-as/values.xml",

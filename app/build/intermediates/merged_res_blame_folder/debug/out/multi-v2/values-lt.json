@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-lt/values-lt.xml",
+            "outputFile": "org.trackasia.android.plugins.testapp-mergeDebugResources-31:/values-lt/values-lt.xml",
             "map": [
-                {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/res/values-lt/values-lt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,139,274,412,603,732",
-                        "endColumns": "83,134,137,190,128,135",
-                        "endOffsets": "134,269,407,598,727,863"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "5834,5918,6053,6191,6382,6511",
-                        "endColumns": "83,134,137,190,128,135",
-                        "endOffsets": "5913,6048,6186,6377,6506,6642"
-                    }
-                },
                 {
                     "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/9feb9f1cc3508f83d259767fcebec0b6/transformed/appcompat-1.0.0/res/values-lt/values-lt.xml",
                     "from": {
@@ -52,6 +35,23 @@
                         "startOffsets": "2895,3004,3188,3322,3431,3643,3775,3924,4277,4502,4613,4809,4945,5157,5337,5435,5531",
                         "endColumns": "108,183,133,108,211,131,148,134,224,110,195,135,211,179,97,95,118",
                         "endOffsets": "2999,3183,3317,3426,3638,3770,3919,4054,4497,4608,4804,4940,5152,5332,5430,5526,5645"
+                    }
+                },
+                {
+                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/87e3286250a81c77d2ada9ec1c3ad1af/transformed/jetified-android-sdk-2.0.0/res/values-lt/values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,139,274,412,603,732",
+                        "endColumns": "83,134,137,190,128,135",
+                        "endOffsets": "134,269,407,598,727,863"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "5834,5918,6053,6191,6382,6511",
+                        "endColumns": "83,134,137,190,128,135",
+                        "endOffsets": "5913,6048,6186,6377,6506,6642"
                     }
                 },
                 {

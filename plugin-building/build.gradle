@@ -19,14 +19,14 @@ android {
 }
 
 dependencies {
-  implementation dependenciesList.trackasiaAndroidSdk
+  implementation dependenciesList.trackAsiaAndroidSdk
   implementation dependenciesList.supportAnnotation
 
   // Unit testing
   testImplementation dependenciesList.junit
   testImplementation dependenciesList.mockito
 
-  javadocDeps dependenciesList.trackasiaAndroidSdk
+  javadocDeps dependenciesList.trackAsiaAndroidSdk
 }
 
 apply from: "${rootDir}/gradle/javadoc.gradle"

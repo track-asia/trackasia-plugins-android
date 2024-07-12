@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.scalebar.ScalebarActivity">
+    tools:context="org.trackasia.android.plugins.testapp.activity.scalebar.ScalebarActivity">
 
-    <com.trackasia.android.maps.MapView
+    <org.trackasia.android.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

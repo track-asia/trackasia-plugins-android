@@ -1,2 +1,2 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.trackasia.android.plugins.maps"/>
+<manifest
+        package="org.trackasia.android.plugins.maps"/>

@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-uk/values-uk.xml",
+            "outputFile": "org.trackasia.android.plugins.testapp-mergeDebugResources-31:/values-uk/values-uk.xml",
             "map": [
-                {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/res/values-uk/values-uk.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,192,285,418,533,718,848",
-                        "endColumns": "136,92,132,114,184,129,147",
-                        "endOffsets": "187,280,413,528,713,843,991"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54,55",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "5716,5853,5946,6079,6194,6379,6509",
-                        "endColumns": "136,92,132,114,184,129,147",
-                        "endOffsets": "5848,5941,6074,6189,6374,6504,6652"
-                    }
-                },
                 {
                     "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/9feb9f1cc3508f83d259767fcebec0b6/transformed/appcompat-1.0.0/res/values-uk/values-uk.xml",
                     "from": {
@@ -86,6 +69,23 @@
                         "startOffsets": "5615",
                         "endColumns": "100",
                         "endOffsets": "5711"
+                    }
+                },
+                {
+                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/87e3286250a81c77d2ada9ec1c3ad1af/transformed/jetified-android-sdk-2.0.0/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,192,285,418,533,718,848",
+                        "endColumns": "136,92,132,114,184,129,147",
+                        "endOffsets": "187,280,413,528,713,843,991"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "5716,5853,5946,6079,6194,6379,6509",
+                        "endColumns": "136,92,132,114,184,129,147",
+                        "endOffsets": "5848,5941,6074,6189,6374,6504,6652"
                     }
                 }
             ]

@@ -9,7 +9,7 @@ android {
   defaultConfig {
     minSdkVersion androidVersions.minSdkVersion
     targetSdkVersion androidVersions.targetSdkVersion
-    applicationId "com.trackasia.android.plugins.testapp"
+    applicationId "org.trackasia.android.plugins.testapp"
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     vectorDrawables.useSupportLibrary = true
 
@@ -60,8 +60,8 @@ dependencies {
   // Kotlin
   implementation dependenciesList.kotlin
 
-  // Trackasia
-  implementation(dependenciesList.trackasiaAndroidSdk, {
+  // TrackAsia
+  implementation(dependenciesList.trackAsiaAndroidSdk, {
     exclude group: 'android.arch.lifecycle'
     exclude group: 'com.google.android.gms'
   })

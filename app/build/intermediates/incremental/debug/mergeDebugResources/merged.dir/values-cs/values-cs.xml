@@ -48,10 +48,10 @@
     <string msgid="146198913615257606" name="search_menu_title">"Hledat"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="trackasia_attributionErrorNoBrowser">Na zařízení není nainstalován webový prohlížeč, webovou stránku nelze zobrazit.</string>
-    <string name="trackasia_attributionsDialogTitle">Trackasia Maps SDK pro Android</string>
+    <string name="trackasia_attributionsDialogTitle">TrackAsia Maps SDK pro Android</string>
     <string name="trackasia_attributionsIconContentDescription">Atributy. Zobrazit nastavení atributů.</string>
     <string name="trackasia_compassContentDescription">Kompas. Nastavit natočení mapy k severu.</string>
-    <string name="trackasia_mapActionDescription">Zobrazení mapy vytvořené s Trackasia. Posunout tažením dvěma prsty. Změnit velikost roztažením dvou prstů.</string>
+    <string name="trackasia_mapActionDescription">Zobrazení mapy vytvořené s TrackAsia. Posunout tažením dvěma prsty. Změnit velikost roztažením dvou prstů.</string>
     <string name="trackasia_myLocationViewContentDescription">Zobrazení polohy. Zobrazit umístění na mapě.</string>
     <string name="trackasia_offline_error_region_definition_invalid">Pokud OfflineRegionDefinition neodpovídá hranicím: %s</string>
 </resources>
