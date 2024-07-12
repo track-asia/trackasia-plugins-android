@@ -47,10 +47,10 @@
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Inloggen met Google"</string>
     <string msgid="146198913615257606" name="search_menu_title">"Zoeken"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
-    <string name="trackasia_attributionsDialogTitle">Trackasia Android SDK</string>
+    <string name="trackasia_attributionsDialogTitle">TrackAsia Android SDK</string>
     <string name="trackasia_attributionsIconContentDescription">Attributie icoon. Activeer voor het tonen van het attributie dialoog. </string>
     <string name="trackasia_compassContentDescription">Kompas van de map. Activeer om de map rotatie te herzetten naar het noorden.</string>
-    <string name="trackasia_mapActionDescription">Toont een map gemaakt met Trackasia. Scroll door het slepen met twee vingers. Zoom door vingers te nijpen.</string>
+    <string name="trackasia_mapActionDescription">Toont een map gemaakt met TrackAsia. Scroll door het slepen met twee vingers. Zoom door vingers te nijpen.</string>
     <string name="trackasia_myLocationViewContentDescription">Locatie Element. Dit toont jouw locatie op de map.</string>
     <string name="trackasia_offline_error_region_definition_invalid">Aangeleverde OfflineRegionDefinition past niet in de wereld omtrek: %s</string>
 </resources>

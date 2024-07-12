@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.trackasia.android.plugins.offline",
+  "applicationId": "com.mapbox.mapboxsdk.plugins.offline",
   "variantName": "debug",
   "elements": [
     {

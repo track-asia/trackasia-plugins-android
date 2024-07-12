@@ -1,9 +1,9 @@
-package com.trackasia.android.plugins.offline;
+package com.mapbox.mapboxsdk.plugins.offline;
 
-import com.trackasia.android.plugins.offline.model.OfflineDownloadOptions;
-import com.trackasia.android.plugins.offline.offline.OfflinePlugin;
-import com.trackasia.android.plugins.testapp.R;
-import com.trackasia.android.plugins.testapp.activity.offline.OfflineDownloadActivity;
+import com.mapbox.mapboxsdk.plugins.offline.model.OfflineDownloadOptions;
+import com.mapbox.mapboxsdk.plugins.offline.offline.OfflinePlugin;
+import com.mapbox.mapboxsdk.plugins.testapp.R;
+import com.mapbox.mapboxsdk.plugins.testapp.activity.offline.OfflineDownloadActivity;
 
 import org.junit.Before;
 import org.junit.Ignore;

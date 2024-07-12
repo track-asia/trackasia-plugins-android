@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.trackasia.android.plugins.localization",
+  "applicationId": "com.mapbox.mapboxsdk.plugins.localization",
   "variantName": "debug",
   "elements": [
     {

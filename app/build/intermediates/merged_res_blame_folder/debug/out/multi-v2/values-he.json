@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-he/values-he.xml",
+            "outputFile": "com.mapbox.mapboxsdk.plugins.testapp-mergeDebugResources-25:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/e982c33da38becffc2722a0ccc2622a5/transformed/jetified-android-sdk-1.0.5/res/values-he/values-he.xml",
+                    "source": "/Users/sangnguyen/.gradle/caches/transforms-3/bda9da8d69c5be25d12b75fa9056af62/transformed/jetified-android-sdk-1.0.22/res/values-he/values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

@@ -47,10 +47,10 @@
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Inicia la sessió amb Google"</string>
     <string msgid="146198913615257606" name="search_menu_title">"Cerca"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
-    <string name="trackasia_attributionsDialogTitle">Trackasia Android SDK</string>
+    <string name="trackasia_attributionsDialogTitle">TrackAsia Android SDK</string>
     <string name="trackasia_attributionsIconContentDescription">Icona d’atribució. Activa per mostrar el diàleg de l’atribució.</string>
     <string name="trackasia_compassContentDescription">Brúixola del mapa. Activa per restablir la rotació del mapa al Nord.</string>
-    <string name="trackasia_mapActionDescription">Mostrant un mapa creat amb Trackasia. Desplaça’t arrossegant amb dos dits. Fes zoom pessigant amb dos dits.</string>
+    <string name="trackasia_mapActionDescription">Mostrant un mapa creat amb TrackAsia. Desplaça’t arrossegant amb dos dits. Fes zoom pessigant amb dos dits.</string>
     <string name="trackasia_myLocationViewContentDescription">Vista de posició. Mostra la teva posició al mapa.</string>
     <string name="trackasia_offline_error_region_definition_invalid">La OfflineRegionDefinition proporcionada no encaixa amb els límits del món: %s</string>
 </resources>

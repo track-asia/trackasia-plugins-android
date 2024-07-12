@@ -1,8 +1,8 @@
-package com.trackasia.android.plugins.localization;
+package com.mapbox.mapboxsdk.plugins.localization;
 
 
-import com.trackasia.android.geometry.LatLng;
-import com.trackasia.android.geometry.LatLngBounds;
+import com.mapbox.mapboxsdk.geometry.LatLng;
+import com.mapbox.mapboxsdk.geometry.LatLngBounds;
 
 import java.lang.annotation.Retention;
 import java.util.HashMap;

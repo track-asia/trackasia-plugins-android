@@ -1,11 +1,11 @@
-package com.trackasia.android.plugins.maps
+package com.mapbox.mapboxsdk.plugins.maps
 
 import android.graphics.RectF
 import com.mapbox.geojson.Feature
-import com.trackasia.android.geometry.LatLng
-import com.trackasia.android.geometry.LatLngBounds
-import com.trackasia.android.maps.TrackasiaMap
-import com.trackasia.android.style.expressions.Expression
+import com.mapbox.mapboxsdk.geometry.LatLng
+import com.mapbox.mapboxsdk.geometry.LatLngBounds
+import com.mapbox.mapboxsdk.maps.MapboxMap
+import com.mapbox.mapboxsdk.style.expressions.Expression
 
 /**
  * Queries the map for rendered features
@@ -14,7 +14,7 @@ import com.trackasia.android.style.expressions.Expression
  * @param layerIds    optionally - only query these layers
  * @return the list of feature
  */
-inline fun TrackasiaMap.queryRenderedFeatures(
+inline fun MapboxMap.queryRenderedFeatures(
     latLng: LatLng,
     vararg layerIds: String,
 ): List<Feature> {
@@ -29,7 +29,7 @@ inline fun TrackasiaMap.queryRenderedFeatures(
  * @param layerIds    optionally - only query these layers
  * @return the list of feature
  */
-inline fun TrackasiaMap.queryRenderedFeatures(
+inline fun MapboxMap.queryRenderedFeatures(
     latLng: LatLng,
     filter: Expression?,
     vararg layerIds: String,
@@ -44,7 +44,7 @@ inline fun TrackasiaMap.queryRenderedFeatures(
  * @param layerIds     optionally - only query these layers
  * @return the list of feature
  */
-inline fun TrackasiaMap.queryRenderedFeatures(
+inline fun MapboxMap.queryRenderedFeatures(
     latLngBounds: LatLngBounds,
     vararg layerIds: String,
 ): List<Feature> {
@@ -58,7 +58,7 @@ inline fun TrackasiaMap.queryRenderedFeatures(
  * @param layerIds     optionally - only query these layers
  * @return the list of feature
  */
-inline fun TrackasiaMap.queryRenderedFeatures(
+inline fun MapboxMap.queryRenderedFeatures(
     latLngBounds: LatLngBounds,
     filter: Expression?,
     vararg layerIds: String,

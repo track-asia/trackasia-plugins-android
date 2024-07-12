@@ -1,18 +1,18 @@
-package com.trackasia.android.plugins.testapp.activity.offline
+package com.mapbox.mapboxsdk.plugins.testapp.activity.offline
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.trackasia.android.camera.CameraPosition
-import com.trackasia.android.geometry.LatLng
-import com.trackasia.android.plugins.offline.OfflineRegionSelector
-import com.trackasia.android.plugins.offline.model.NotificationOptions
-import com.trackasia.android.plugins.offline.model.RegionSelectionOptions
-import com.trackasia.android.plugins.offline.offline.OfflinePlugin
-import com.trackasia.android.plugins.testapp.R
-import com.trackasia.android.plugins.testapp.databinding.ActivityOfflineUiComponentsBinding
+import com.mapbox.mapboxsdk.camera.CameraPosition
+import com.mapbox.mapboxsdk.geometry.LatLng
+import com.mapbox.mapboxsdk.plugins.offline.OfflineRegionSelector
+import com.mapbox.mapboxsdk.plugins.offline.model.NotificationOptions
+import com.mapbox.mapboxsdk.plugins.offline.model.RegionSelectionOptions
+import com.mapbox.mapboxsdk.plugins.offline.offline.OfflinePlugin
+import com.mapbox.mapboxsdk.plugins.testapp.R
+import com.mapbox.mapboxsdk.plugins.testapp.databinding.ActivityOfflineUiComponentsBinding
 import java.util.Locale
 
 class OfflineUiComponentsActivity : AppCompatActivity() {
@@ -32,7 +32,7 @@ class OfflineUiComponentsActivity : AppCompatActivity() {
         // Create the offline region selector options
         val options = RegionSelectionOptions.builder()
             .statingCameraPosition(
-                CameraPosition.Builder().target(LatLng(32.7852, -96.8154)).zoom(12.0).build(),
+                CameraPosition.Builder().target(LatLng(32.7852, -96.8154)).zoom(12.0).build()
             ).build()
 
         val intent = OfflineRegionSelector.IntentBuilder()
@@ -61,9 +61,9 @@ class OfflineUiComponentsActivity : AppCompatActivity() {
                 String.format(
                     Locale.US,
                     "Region name: %s",
-                    data?.let { OfflineRegionSelector.getRegionName(it) } ?: "null",
+                    data?.let { OfflineRegionSelector.getRegionName(it) } ?: "null"
                 ),
-                Toast.LENGTH_LONG,
+                Toast.LENGTH_LONG
             ).show()
         } else if (resultCode == Activity.RESULT_CANCELED) {
             Toast.makeText(this, "user canceled out of region selector", Toast.LENGTH_LONG).show()

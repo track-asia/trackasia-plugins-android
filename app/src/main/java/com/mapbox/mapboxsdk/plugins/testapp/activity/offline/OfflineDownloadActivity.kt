@@ -1,21 +1,21 @@
-package com.trackasia.android.plugins.testapp.activity.offline
+package com.mapbox.mapboxsdk.plugins.testapp.activity.offline
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.SeekBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.trackasia.android.constants.TrackasiaConstants
-import com.trackasia.android.geometry.LatLng
-import com.trackasia.android.geometry.LatLngBounds
-import com.trackasia.android.maps.Style
-import com.trackasia.android.offline.OfflineTilePyramidRegionDefinition
-import com.trackasia.android.plugins.offline.model.NotificationOptions
-import com.trackasia.android.plugins.offline.model.OfflineDownloadOptions
-import com.trackasia.android.plugins.offline.offline.OfflinePlugin
-import com.trackasia.android.plugins.offline.utils.OfflineUtils
-import com.trackasia.android.plugins.testapp.R
-import com.trackasia.android.plugins.testapp.databinding.ActivityOfflineDownloadBinding
+import com.mapbox.mapboxsdk.constants.MapboxConstants
+import com.mapbox.mapboxsdk.geometry.LatLng
+import com.mapbox.mapboxsdk.geometry.LatLngBounds
+import com.mapbox.mapboxsdk.maps.Style
+import com.mapbox.mapboxsdk.offline.OfflineTilePyramidRegionDefinition
+import com.mapbox.mapboxsdk.plugins.offline.model.NotificationOptions
+import com.mapbox.mapboxsdk.plugins.offline.model.OfflineDownloadOptions
+import com.mapbox.mapboxsdk.plugins.offline.offline.OfflinePlugin
+import com.mapbox.mapboxsdk.plugins.offline.utils.OfflineUtils
+import com.mapbox.mapboxsdk.plugins.testapp.R
+import com.mapbox.mapboxsdk.plugins.testapp.databinding.ActivityOfflineDownloadBinding
 import java.util.ArrayList
 
 /**
@@ -39,7 +39,7 @@ class OfflineDownloadActivity : AppCompatActivity() {
                     this,
                     "Please make sure that the Max zoom value is larger" +
                         " than the Min zoom level",
-                    Toast.LENGTH_SHORT,
+                    Toast.LENGTH_SHORT
                 ).show()
             }
         }
@@ -61,7 +61,7 @@ class OfflineDownloadActivity : AppCompatActivity() {
     }
 
     private fun initSeekbars() {
-        val maxZoom = TrackasiaConstants.MAXIMUM_ZOOM.toInt()
+        val maxZoom = MapboxConstants.MAXIMUM_ZOOM.toInt()
         binding.seekbarMinZoom.max = maxZoom
         binding.seekbarMinZoom.progress = 16
         binding.seekbarMaxZoom.max = maxZoom
@@ -141,7 +141,7 @@ class OfflineDownloadActivity : AppCompatActivity() {
                 .build(),
             minZoom.toDouble(),
             maxZoom.toDouble(),
-            resources.displayMetrics.density,
+            resources.displayMetrics.density
         )
 
         // customize notification appearance
@@ -156,7 +156,7 @@ class OfflineDownloadActivity : AppCompatActivity() {
                 .definition(definition)
                 .metadata(OfflineUtils.convertRegionName(regionName))
                 .notificationOptions(notificationOptions)
-                .build(),
+                .build()
         )
     }
 
@@ -164,7 +164,7 @@ class OfflineDownloadActivity : AppCompatActivity() {
         latitudeNorth: Double,
         longitudeEast: Double,
         latitudeSouth: Double,
-        longitudeWest: Double,
+        longitudeWest: Double
     ): Boolean {
         if (latitudeNorth < -90 || latitudeNorth > 90) {
             return false

@@ -1,9 +1,9 @@
-package com.trackasia.android.plugins.testapp.activity
+package com.mapbox.mapboxsdk.plugins.testapp.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.trackasia.android.maps.MapView
-import com.trackasia.android.plugins.testapp.R
+import com.mapbox.mapboxsdk.maps.MapView
+import com.mapbox.mapboxsdk.plugins.testapp.R
 
 class TestActivity : AppCompatActivity() {
 

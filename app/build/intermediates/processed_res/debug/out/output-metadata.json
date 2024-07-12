@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.trackasia.android.plugins.testapp",
+  "applicationId": "com.mapbox.mapboxsdk.plugins.testapp",
   "variantName": "debug",
   "elements": [
     {

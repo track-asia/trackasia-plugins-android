@@ -1,4 +1,4 @@
-package com.trackasia.android.plugins.testapp.activity.markerview
+package com.mapbox.mapboxsdk.plugins.testapp.activity.markerview
 
 import android.animation.ValueAnimator
 import android.os.Bundle
@@ -9,21 +9,21 @@ import android.view.animation.AccelerateDecelerateInterpolator
 import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.trackasia.android.camera.CameraUpdateFactory
-import com.trackasia.android.geometry.LatLng
-import com.trackasia.android.maps.MapView
-import com.trackasia.android.maps.TrackasiaMap
-import com.trackasia.android.maps.Style
-import com.trackasia.android.plugins.markerview.MarkerView
-import com.trackasia.android.plugins.markerview.MarkerViewManager
-import com.trackasia.android.plugins.testapp.R
-import com.trackasia.android.plugins.testapp.Utils
+import com.mapbox.mapboxsdk.camera.CameraUpdateFactory
+import com.mapbox.mapboxsdk.geometry.LatLng
+import com.mapbox.mapboxsdk.maps.MapView
+import com.mapbox.mapboxsdk.maps.MapboxMap
+import com.mapbox.mapboxsdk.maps.Style
+import com.mapbox.mapboxsdk.plugins.markerview.MarkerView
+import com.mapbox.mapboxsdk.plugins.markerview.MarkerViewManager
+import com.mapbox.mapboxsdk.plugins.testapp.R
+import com.mapbox.mapboxsdk.plugins.testapp.Utils
 import java.util.Random
 
 class MarkerViewActivity :
     AppCompatActivity(),
-    TrackasiaMap.OnMapLongClickListener,
-    TrackasiaMap.OnMapClickListener {
+    MapboxMap.OnMapLongClickListener,
+    MapboxMap.OnMapClickListener {
 
     private val random = Random()
     private var markerViewManager: MarkerViewManager? = null
@@ -96,7 +96,7 @@ class MarkerViewActivity :
     private fun createRandomLatLng(): LatLng {
         return LatLng(
             random.nextDouble() * -180.0 + 90.0,
-            random.nextDouble() * -360.0 + 180.0,
+            random.nextDouble() * -360.0 + 180.0
         )
     }
 

@@ -1,4 +1,4 @@
-package com.trackasia.android.plugins.testapp.activity.offline
+package com.mapbox.mapboxsdk.plugins.testapp.activity.offline
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import com.trackasia.android.offline.OfflineManager
-import com.trackasia.android.offline.OfflineRegion
-import com.trackasia.android.offline.OfflineRegionDefinition
-import com.trackasia.android.plugins.offline.utils.OfflineUtils
-import com.trackasia.android.plugins.testapp.R
+import com.mapbox.mapboxsdk.offline.OfflineManager
+import com.mapbox.mapboxsdk.offline.OfflineRegion
+import com.mapbox.mapboxsdk.offline.OfflineRegionDefinition
+import com.mapbox.mapboxsdk.plugins.offline.utils.OfflineUtils
+import com.mapbox.mapboxsdk.plugins.testapp.R
 import java.util.*
 
 /**
@@ -57,7 +57,7 @@ class OfflineRegionListActivity : AppCompatActivity(), AdapterView.OnItemClickLi
                     Toast.makeText(
                         this@OfflineRegionListActivity,
                         "Error loading regions $error",
-                        Toast.LENGTH_LONG,
+                        Toast.LENGTH_LONG
                     ).show()
                 }
             })

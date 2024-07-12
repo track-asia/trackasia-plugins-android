@@ -1,14 +1,37 @@
 ext {
-    trackasiaArtifactGroupId = 'io.github.track-asia'
-    trackasiaArtifactId = project.property('POM_ARTIFACT_ID')
-    trackasiaArtifactTitle = project.property('POM_NAME')
-    trackasiaArtifactDescription = project.property('POM_DESCRIPTION')
-    trackasiaDeveloperName = 'Trackasia'
-    trackasiaDeveloperId = 'trackasia'
-    trackasiaArtifactUrl = 'https://github.com/track-asia/trackasia-plugins-android'
-    trackasiaArtifactVcsUrl = 'git@github.com:trackasia/trackasia-plugins-android.git'
-    trackasiaArtifactScmUrl = 'scm:git@github.com:trackasia/trackasia-plugins-android.git'
-    trackasiaArtifactLicenseName = 'BSD'
-    trackasiaArtifactLicenseUrl = 'https://opensource.org/licenses/BSD-2-Clause'
-    versionName = "1.0.0"
+    trackAsiaArtifactGroupId = 'io.github.track-asia'
+    trackAsiaArtifactId = project.property('POM_ARTIFACT_ID')
+    trackAsiaArtifactTitle = project.property('POM_NAME')
+    trackAsiaArtifactDescription = project.property('POM_DESCRIPTION')
+    trackAsiaDeveloperName = 'TrackAsia'
+    trackAsiaDeveloperId = 'trackasia'
+    trackAsiaArtifactUrl = 'https://github.com/trackasia/trackasia-plugins-android'
+    trackAsiaArtifactVcsUrl = 'git@github.com:trackasia/trackasia-plugins-android.git'
+    trackAsiaArtifactScmUrl = 'scm:git@github.com:trackasia/trackasia-plugins-android.git'
+    trackAsiaArtifactLicenseName = 'BSD'
+    trackAsiaArtifactLicenseUrl = 'https://opensource.org/licenses/BSD-2-Clause'
+    versionName = getVersionName()
+}
+
+def getVersionName() {
+    def cmd = "git describe --tag --abbrev=0"
+    def version = cmd.execute().text.trim()
+    return isSnapshot() ? getSnapshotVersion(version) : getReleaseVersion(version)
+}
+
+def isSnapshot() {
+    return project.hasProperty("snapshot")
+            ? project.property("snapshot").toBoolean()
+            : false
+}
+
+private static def getReleaseVersion(String version) {
+    return version.substring(1)
+}
+
+private static def getSnapshotVersion(String version) {
+    def matcher = version =~ /^[v|V](\d+).(\d+)?.*/
+    def major = (matcher[0][1] as Integer)
+    def minor = (matcher[0][2] as Integer) + 1
+    return "${major}.${minor}.0-SNAPSHOT"
 }

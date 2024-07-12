@@ -1,4 +1,4 @@
-package com.trackasia.android.plugins.annotation;
+package com.mapbox.mapboxsdk.plugins.annotation;
 
 import android.graphics.PointF;
 
@@ -6,9 +6,9 @@ import com.mapbox.android.gestures.AndroidGesturesManager;
 import com.mapbox.android.gestures.MoveDistancesObject;
 import com.mapbox.android.gestures.MoveGestureDetector;
 import com.mapbox.geojson.Geometry;
-import com.trackasia.android.maps.MapView;
-import com.trackasia.android.maps.TrackasiaMap;
-import com.trackasia.android.maps.Projection;
+import com.mapbox.mapboxsdk.maps.MapView;
+import com.mapbox.mapboxsdk.maps.MapboxMap;
+import com.mapbox.mapboxsdk.maps.Projection;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +37,7 @@ public class DraggableAnnotationControllerTest {
     private MapView mapView;
 
     @Mock
-    private TrackasiaMap mapboxMap;
+    private MapboxMap mapboxMap;
 
     @Mock
     private Projection projection;
@@ -122,11 +122,11 @@ public class DraggableAnnotationControllerTest {
     }
 
     @Test
-    public void annotationDragStopSourceUpdateTest() {
+    public void annotationDragStopOnDeleteTest() {
         when(annotation.isDraggable()).thenReturn(true);
         when(annotationManager.getDragListeners()).thenReturn(dragListenerList);
         draggableAnnotationController.startDragging(annotation, annotationManager);
-        draggableAnnotationController.onSourceUpdated();
+        draggableAnnotationController.onAnnotationDeleted(annotation);
         verify(dragListener, times(1)).onAnnotationDragFinished(annotation);
     }
 
@@ -265,7 +265,7 @@ public class DraggableAnnotationControllerTest {
 
         assertTrue(moved);
         verify(annotation).setGeometry(geometry);
-        verify(annotationManager).internalUpdateSource();
+        verify(annotationManager).updateSource();
         verify(dragListener, times(1)).onAnnotationDrag(annotation);
     }
 

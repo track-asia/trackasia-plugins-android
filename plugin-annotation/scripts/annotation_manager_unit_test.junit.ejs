@@ -5,21 +5,21 @@
 -%>
 // This file is generated.
 
-package com.trackasia.android.plugins.annotation;
+package com.mapbox.mapboxsdk.plugins.annotation;
 
 import android.graphics.PointF;
 
 import com.google.gson.JsonPrimitive;
 import com.mapbox.geojson.*;
-import com.trackasia.android.geometry.LatLng;
-import com.trackasia.android.maps.MapView;
-import com.trackasia.android.maps.TrackasiaMap;
-import com.trackasia.android.maps.Style;
-import com.trackasia.android.style.expressions.Expression;
-import com.trackasia.android.style.layers.*;
-import com.trackasia.android.style.sources.GeoJsonOptions;
-import com.trackasia.android.style.sources.GeoJsonSource;
-import com.trackasia.android.utils.ColorUtils;
+import com.mapbox.mapboxsdk.geometry.LatLng;
+import com.mapbox.mapboxsdk.maps.MapView;
+import com.mapbox.mapboxsdk.maps.MapboxMap;
+import com.mapbox.mapboxsdk.maps.Style;
+import com.mapbox.mapboxsdk.style.expressions.Expression;
+import com.mapbox.mapboxsdk.style.layers.*;
+import com.mapbox.mapboxsdk.style.sources.GeoJsonOptions;
+import com.mapbox.mapboxsdk.style.sources.GeoJsonSource;
+import com.mapbox.mapboxsdk.utils.ColorUtils;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -29,10 +29,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
-import static com.trackasia.android.plugins.annotation.ConvertUtils.convertArray;
-import static com.trackasia.android.style.expressions.Expression.get;
-import static com.trackasia.android.style.layers.Property.*;
-import static com.trackasia.android.style.layers.PropertyFactory.*;
+import static com.mapbox.mapboxsdk.plugins.annotation.ConvertUtils.convertArray;
+import static com.mapbox.mapboxsdk.style.expressions.Expression.get;
+import static com.mapbox.mapboxsdk.style.layers.Property.*;
+import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.*;
 import static junit.framework.Assert.*;
 import static org.mockito.ArgumentMatchers.argThat;
 import static org.mockito.Mockito.*;
@@ -41,7 +41,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     private DraggableAnnotationController draggableAnnotationController = mock(DraggableAnnotationController.class);
     private MapView mapView = mock(MapView.class);
-    private TrackasiaMap mapboxMap = mock(TrackasiaMap.class);
+    private MapboxMap mapboxMap = mock(MapboxMap.class);
     private Style style = mock(Style.class);
     private GeoJsonSource geoJsonSource = mock(GeoJsonSource.class);
     private GeoJsonSource optionedGeoJsonSource = mock(GeoJsonSource.class);
@@ -62,7 +62,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void testInitialization() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         verify(style).addSource(geoJsonSource);
         verify(style).addLayer(<%- type  %>Layer);
         assertTrue(<%- type  %>Manager.dataDrivenPropertyUsageMap.size() > 0);
@@ -71,13 +71,11 @@ public class <%- camelize(type) %>ManagerTest {
         }
         verify(<%- type  %>Layer).setProperties(<%- type  %>Manager.constantPropertyUsageMap.values().toArray(new PropertyValue[0]));
         verify(<%- type  %>Layer, times(0)).setFilter(any(Expression.class));
-        verify(draggableAnnotationController).onSourceUpdated();
-        verify(geoJsonSource).setGeoJson(any(FeatureCollection.class));
     }
 
     @Test
     public void testInitializationOnStyleReload() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         verify(style).addSource(geoJsonSource);
         verify(style).addLayer(<%- type  %>Layer);
         assertTrue(<%- type  %>Manager.dataDrivenPropertyUsageMap.size() > 0);
@@ -85,8 +83,6 @@ public class <%- camelize(type) %>ManagerTest {
             assertFalse(value);
         }
         verify(<%- type  %>Layer).setProperties(<%- type  %>Manager.constantPropertyUsageMap.values().toArray(new PropertyValue[0]));
-        verify(draggableAnnotationController).onSourceUpdated();
-        verify(geoJsonSource).setGeoJson(any(FeatureCollection.class));
 
         Expression filter = Expression.literal(false);
         <%- type  %>Manager.setFilter(filter);
@@ -114,13 +110,11 @@ public class <%- camelize(type) %>ManagerTest {
         }
         verify(newLayer).setProperties(<%- type  %>Manager.constantPropertyUsageMap.values().toArray(new PropertyValue[0]));
         verify(<%- type  %>Layer).setFilter(filter);
-        verify(draggableAnnotationController, times(2)).onSourceUpdated();
-        verify(newSource).setGeoJson(any(FeatureCollection.class));
     }
 
     @Test
     public void testLayerBelowInitialization() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, "test_layer", null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, "test_layer", null, null, draggableAnnotationController);
         verify(style).addSource(geoJsonSource);
         verify(style).addLayerBelow(<%- type  %>Layer, "test_layer");
         assertTrue(<%- type  %>Manager.dataDrivenPropertyUsageMap.size() > 0);
@@ -128,13 +122,11 @@ public class <%- camelize(type) %>ManagerTest {
             assertFalse(value);
         }
         verify(<%- type  %>Layer).setProperties(<%- type  %>Manager.constantPropertyUsageMap.values().toArray(new PropertyValue[0]));
-        verify(draggableAnnotationController).onSourceUpdated();
-        verify(geoJsonSource).setGeoJson(any(FeatureCollection.class));
     }
 
     @Test
     public void testGeoJsonOptionsInitialization() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, geoJsonOptions, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, geoJsonOptions, draggableAnnotationController);
         verify(style).addSource(optionedGeoJsonSource);
         verify(style).addLayer(<%- type  %>Layer);
         assertTrue(<%- type  %>Manager.dataDrivenPropertyUsageMap.size() > 0);
@@ -143,29 +135,17 @@ public class <%- camelize(type) %>ManagerTest {
         }
         verify(<%- type  %>Layer).setProperties(<%- type  %>Manager.constantPropertyUsageMap.values().toArray(new PropertyValue[0]));
         verify(<%- type  %>Layer, times(0)).setFilter(any(Expression.class));
-        verify(draggableAnnotationController).onSourceUpdated();
-        verify(optionedGeoJsonSource).setGeoJson(any(FeatureCollection.class));
-    }
-
-    @Test
-    public void testNoUpdateOnStyleReload() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, "test_layer", null, draggableAnnotationController);
-        verify(geoJsonSource, times(1)).setGeoJson(any(FeatureCollection.class));
-
-        when(style.isFullyLoaded()).thenReturn(false);
-        <%- type  %>Manager.updateSource();
-        verify(geoJsonSource, times(1)).setGeoJson(any(FeatureCollection.class));
     }
 
     @Test
     public void testLayerId() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         assertEquals(layerId, <%- type  %>Manager.getLayerId());
     }
 
     @Test
     public void testAdd<%- camelize(type) %>() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         <%- camelize(type) %> <%- type %> = <%- type %>Manager.create(new <%- camelize(type) %>Options().withLatLng(new LatLng()));
 <% } else if (type === "line") { -%>
@@ -188,7 +168,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void add<%- camelize(type) %>FromFeatureCollection() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         Geometry geometry = Point.fromLngLat(10, 10);
 <% } else if (type === "line") { -%>
@@ -247,7 +227,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void add<%- camelize(type) %>s() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         List<LatLng> latLngList = new ArrayList<>();
         latLngList.add(new LatLng());
@@ -307,7 +287,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void testDelete<%- camelize(type) %>() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         <%- camelize(type) %> <%- type %> = <%- type %>Manager.create(new <%- camelize(type) %>Options().withLatLng(new LatLng()));
 <% } else if (type === "line") { -%>
@@ -330,7 +310,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void testGeometry<%- camelize(type) %>() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         LatLng latLng = new LatLng(12, 34);
         <%- camelize(type) %>Options options = new <%- camelize(type) %>Options().withLatLng(latLng);
@@ -385,7 +365,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void testFeatureId<%- camelize(type) %>() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         <%- camelize(type) %> <%- type %>Zero = <%- type %>Manager.create(new <%- camelize(type) %>Options().withLatLng(new LatLng()));
         <%- camelize(type) %> <%- type %>One = <%- type %>Manager.create(new <%- camelize(type) %>Options().withLatLng(new LatLng()));
@@ -411,7 +391,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void test<%- camelize(type) %>DraggableFlag() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         <%- camelize(type) %> <%- type %>Zero = <%- type %>Manager.create(new <%- camelize(type) %>Options().withLatLng(new LatLng()));
 <% } else if (type === "line") { -%>
@@ -441,7 +421,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void test<%- camelize(property.name) %>LayerProperty() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         verify(<%- type  %>Layer, times(0)).setProperties(argThat(new PropertyValueMatcher(<%- camelizeWithLeadingLowercase(property.name) %>(get("<%- property.name %>")))));
 
 <% if (type === "circle" || type === "symbol") { -%>
@@ -461,6 +441,7 @@ public class <%- camelize(type) %>ManagerTest {
         <%- camelize(type) %>Options options = new <%- camelize(type) %>Options().withLatLngs(latLngs).with<%- camelize(property.name) %>(<%- defaultValueJava(property) %>);
 <% } -%>
         <%- type  %>Manager.create(options);
+        <%- type  %>Manager.updateSourceNow();
         verify(<%- type  %>Layer, times(1)).setProperties(argThat(new PropertyValueMatcher(<%- camelizeWithLeadingLowercase(property.name) %>(get("<%- property.name %>")))));
 
         <%- type  %>Manager.create(options);
@@ -471,7 +452,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void test<%- camelize(type) %>LayerFilter() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         Expression expression = Expression.eq(Expression.get("test"), "selected");
         verify(<%- type %>Layer, times(0)).setFilter(expression);
 
@@ -486,7 +467,7 @@ public class <%- camelize(type) %>ManagerTest {
     @Test
     public void testClickListener() {
         On<%- camelize(type) %>ClickListener listener = mock(On<%- camelize(type) %>ClickListener.class);
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         assertTrue(<%- type  %>Manager.getClickListeners().isEmpty());
         <%- type  %>Manager.addClickListener(listener);
         assertTrue(<%- type  %>Manager.getClickListeners().contains(listener));
@@ -497,7 +478,7 @@ public class <%- camelize(type) %>ManagerTest {
     @Test
     public void testLongClickListener() {
         On<%- camelize(type) %>LongClickListener listener = mock(On<%- camelize(type) %>LongClickListener.class);
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         assertTrue(<%- type  %>Manager.getLongClickListeners().isEmpty());
         <%- type  %>Manager.addLongClickListener(listener);
         assertTrue(<%- type  %>Manager.getLongClickListeners().contains(listener));
@@ -508,7 +489,7 @@ public class <%- camelize(type) %>ManagerTest {
     @Test
     public void testDragListener() {
         On<%- camelize(type) %>DragListener listener = mock(On<%- camelize(type) %>DragListener.class);
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
         assertTrue(<%- type  %>Manager.getDragListeners().isEmpty());
         <%- type  %>Manager.addDragListener(listener);
         assertTrue(<%- type  %>Manager.getDragListeners().contains(listener));
@@ -518,7 +499,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void testCustomData() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         <%- camelize(type) %>Options options = new <%- camelize(type) %>Options().withLatLng(new LatLng());
 <% } else if (type === "line") { -%>
@@ -542,7 +523,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void testClearAll() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         <%- camelize(type) %>Options options = new <%- camelize(type) %>Options().withLatLng(new LatLng());
 <% } else if (type === "line") { -%>
@@ -567,7 +548,7 @@ public class <%- camelize(type) %>ManagerTest {
 
     @Test
     public void testIgnoreClearedAnnotations() {
-        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, draggableAnnotationController);
+        <%- type  %>Manager = new <%- camelize(type) %>Manager(mapView, mapboxMap, style, coreElementProvider, null, null, null, draggableAnnotationController);
 <% if (type === "circle" || type === "symbol") { -%>
         <%- camelize(type) %>Options options = new <%- camelize(type) %>Options().withLatLng(new LatLng());
 <% } else if (type === "line") { -%>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-v16/values-v16.xml",
+            "outputFile": "com.mapbox.mapboxsdk.plugins.testapp-mergeDebugResources-25:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/34c988efcf550c2f54b9057db2cbd4ca/transformed/core-1.8.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/sangnguyen/.gradle/caches/transforms-3/846f05f66002f5e7e294136cfecdcff6/transformed/core-1.8.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/9feb9f1cc3508f83d259767fcebec0b6/transformed/appcompat-1.0.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/sangnguyen/.gradle/caches/transforms-3/67fb09e9863f69f2963f40310604e1ac/transformed/appcompat-1.0.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -2,11 +2,11 @@ package com.mapbox.pluginscalebar;
 
 import android.view.View;
 
-import com.trackasia.android.camera.CameraPosition;
-import com.trackasia.android.log.Logger;
-import com.trackasia.android.maps.MapView;
-import com.trackasia.android.maps.TrackasiaMap;
-import com.trackasia.android.maps.Projection;
+import com.mapbox.mapboxsdk.camera.CameraPosition;
+import com.mapbox.mapboxsdk.log.Logger;
+import com.mapbox.mapboxsdk.maps.MapView;
+import com.mapbox.mapboxsdk.maps.MapboxMap;
+import com.mapbox.mapboxsdk.maps.Projection;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
@@ -19,13 +19,13 @@ public class ScaleBarPlugin {
     private static final String TAG = "Mbgl-ScaleBarPlugin";
 
     private final MapView mapView;
-    private final TrackasiaMap mapboxMap;
+    private final MapboxMap mapboxMap;
     private final Projection projection;
     private boolean enabled = true;
     private ScaleBarWidget scaleBarWidget;
 
     @VisibleForTesting
-    final TrackasiaMap.OnCameraMoveListener cameraMoveListener = new TrackasiaMap.OnCameraMoveListener() {
+    final MapboxMap.OnCameraMoveListener cameraMoveListener = new MapboxMap.OnCameraMoveListener() {
         @Override
         public void onCameraMove() {
             invalidateScaleBar();
@@ -33,14 +33,14 @@ public class ScaleBarPlugin {
     };
 
     @VisibleForTesting
-    final TrackasiaMap.OnCameraIdleListener cameraIdleListener = new TrackasiaMap.OnCameraIdleListener() {
+    final MapboxMap.OnCameraIdleListener cameraIdleListener = new MapboxMap.OnCameraIdleListener() {
         @Override
         public void onCameraIdle() {
             invalidateScaleBar();
         }
     };
 
-    public ScaleBarPlugin(@NonNull MapView mapView, @NonNull TrackasiaMap mapboxMap) {
+    public ScaleBarPlugin(@NonNull MapView mapView, @NonNull MapboxMap mapboxMap) {
         this.mapView = mapView;
         this.mapboxMap = mapboxMap;
         this.projection = mapboxMap.getProjection();
@@ -80,9 +80,9 @@ public class ScaleBarPlugin {
     /**
      * Toggles the scale plugin state.
      * <p>
-     * If the scale plugin wasn enabled, a {@link com.trackasia.android.maps.TrackasiaMap.OnCameraMoveListener}
+     * If the scale plugin wasn enabled, a {@link com.mapbox.mapboxsdk.maps.MapboxMap.OnCameraMoveListener}
      * will be added to the {@link MapView} to listen to scale change events to update the state of this plugin. If the
-     * plugin was disabled the {@link com.trackasia.android.maps.TrackasiaMap.OnCameraMoveListener}
+     * plugin was disabled the {@link com.mapbox.mapboxsdk.maps.MapboxMap.OnCameraMoveListener}
      * will be removed from the map.
      * </p>
      */

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.trackasia.android.plugins.testapp" >
+    package="com.mapbox.mapboxsdk.plugins.testapp" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -27,7 +27,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
-        android:name="com.trackasia.android.plugins.testapp.PluginApplication"
+        android:name="com.mapbox.mapboxsdk.plugins.testapp.PluginApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -35,13 +35,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.TestActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.TestActivity"
             android:label="@string/title_activity_test"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.FeatureOverviewActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.FeatureOverviewActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -71,7 +72,7 @@
         <!-- android:value=".activity.FeatureOverviewActivity"/> -->
         <!-- </activity> -->
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineDownloadActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.offline.OfflineDownloadActivity"
             android:description="@string/description_offline_plugin"
             android:label="@string/title_offline_plugin" >
             <meta-data
@@ -82,7 +83,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineUiComponentsActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.offline.OfflineUiComponentsActivity"
             android:description="@string/description_offline_ui_components"
             android:label="@string/title_offline_ui_components" >
             <meta-data
@@ -93,7 +94,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineRegionListActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.offline.OfflineRegionListActivity"
             android:description="@string/description_offline_regions"
             android:label="@string/title_offline_regions" >
             <meta-data
@@ -104,12 +105,12 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.offline.OfflineRegionDetailActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.offline.OfflineRegionDetailActivity"
             android:description="@string/description_offline_regions"
             android:label="@string/title_offline_regions"
             android:theme="@style/Translucent" />
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.localization.LocalizationActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.localization.LocalizationActivity"
             android:description="@string/description_localization"
             android:label="@string/title_localization" >
             <meta-data
@@ -120,7 +121,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.SymbolActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.SymbolActivity"
             android:description="@string/description_symbol"
             android:label="@string/title_symbol" >
             <meta-data
@@ -131,7 +132,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.PressForSymbolActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.PressForSymbolActivity"
             android:description="@string/description_symbol_press"
             android:label="@string/title_symbol_press" >
             <meta-data
@@ -142,7 +143,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.BulkSymbolActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.BulkSymbolActivity"
             android:description="@string/description_symbol_bulk"
             android:label="@string/title_symbol_bulk" >
             <meta-data
@@ -153,7 +154,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.ClusterSymbolActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.ClusterSymbolActivity"
             android:description="@string/description_symbol_cluster"
             android:label="@string/title_symbol_cluster" >
             <meta-data
@@ -164,7 +165,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.DynamicSymbolChangeActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.DynamicSymbolChangeActivity"
             android:description="@string/description_symbol_change"
             android:label="@string/title_symbol_change" >
             <meta-data
@@ -175,7 +176,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.FillActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillActivity"
             android:description="@string/description_fill"
             android:label="@string/title_fill" >
             <meta-data
@@ -186,7 +187,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.FillChangeActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.FillChangeActivity"
             android:description="@string/description_fill_change"
             android:label="@string/title_fill_change" >
             <meta-data
@@ -197,7 +198,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.CircleActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.CircleActivity"
             android:description="@string/description_circle"
             android:label="@string/title_circle" >
             <meta-data
@@ -208,7 +209,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.LineActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.LineActivity"
             android:description="@string/description_line"
             android:label="@string/title_line" >
             <meta-data
@@ -219,7 +220,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.annotation.LineChangeActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.annotation.LineChangeActivity"
             android:description="@string/description_line_change"
             android:label="@string/title_line_change" >
             <meta-data
@@ -230,7 +231,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.markerview.MarkerViewActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.markerview.MarkerViewActivity"
             android:description="@string/description_markerview"
             android:label="@string/title_markerview" >
             <meta-data
@@ -241,7 +242,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.ktx.maps.MapboxKtxActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.ktx.maps.MapboxKtxActivity"
             android:description="@string/description_ktx"
             android:label="@string/title_ktx" >
             <meta-data
@@ -252,7 +253,7 @@
                 android:value=".activity.FeatureOverviewActivity" />
         </activity>
         <activity
-            android:name="com.trackasia.android.plugins.testapp.activity.scalebar.ScalebarActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.testapp.activity.scalebar.ScalebarActivity"
             android:description="@string/description_scalebar"
             android:label="@string/title_scalebar" >
             <meta-data
@@ -264,12 +265,12 @@
         </activity>
 
         <service
-            android:name="com.trackasia.android.plugins.offline.offline.OfflineDownloadService"
+            android:name="com.mapbox.mapboxsdk.plugins.offline.offline.OfflineDownloadService"
             android:exported="false" />
 
-        <receiver android:name="com.trackasia.android.plugins.offline.offline.OfflineDownloadStateReceiver" >
+        <receiver android:name="com.mapbox.mapboxsdk.plugins.offline.offline.OfflineDownloadStateReceiver" >
             <intent-filter>
-                <action android:name="com.trackasia.android.plugins.offline" />
+                <action android:name="com.mapbox.mapboxsdk.plugins.offline" />
             </intent-filter>
         </receiver>
 
@@ -284,7 +285,7 @@
 
         <provider
             android:name="com.squareup.leakcanary.internal.LeakCanaryFileProvider"
-            android:authorities="com.squareup.leakcanary.fileprovider.com.trackasia.android.plugins.testapp"
+            android:authorities="com.squareup.leakcanary.fileprovider.com.mapbox.mapboxsdk.plugins.testapp"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -298,7 +299,7 @@
             android:icon="@mipmap/leak_canary_icon"
             android:label="@string/leak_canary_display_activity_label"
             android:process=":leakcanary"
-            android:taskAffinity="com.squareup.leakcanary.com.trackasia.android.plugins.testapp"
+            android:taskAffinity="com.squareup.leakcanary.com.mapbox.mapboxsdk.plugins.testapp"
             android:theme="@style/leak_canary_LeakCanary.Base" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -314,10 +315,10 @@
             android:label="@string/leak_canary_storage_permission_activity_label"
             android:process=":leakcanary"
             android:roundIcon="@mipmap/leak_canary_icon"
-            android:taskAffinity="com.squareup.leakcanary.com.trackasia.android.plugins.testapp"
+            android:taskAffinity="com.squareup.leakcanary.com.mapbox.mapboxsdk.plugins.testapp"
             android:theme="@style/leak_canary_Theme.Transparent" /> <!-- Offline download region picker activity -->
         <activity
-            android:name="com.trackasia.android.plugins.offline.ui.OfflineActivity"
+            android:name="com.mapbox.mapboxsdk.plugins.offline.ui.OfflineActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
@@ -330,7 +331,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.trackasia.android.plugins.testapp.lifecycle-process"
+            android:authorities="com.mapbox.mapboxsdk.plugins.testapp.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

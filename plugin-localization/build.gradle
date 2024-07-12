@@ -20,9 +20,9 @@ android {
 
 dependencies {
     implementation dependenciesList.supportAppcompatV7
-    implementation dependenciesList.trackasiaAndroidSdk
+    implementation dependenciesList.trackAsiaAndroidSdk
     implementation dependenciesList.timber
-    javadocDeps dependenciesList.trackasiaAndroidSdk
+    javadocDeps dependenciesList.trackAsiaAndroidSdk
 
     // Unit testing
     testImplementation dependenciesList.junit

@@ -1,9 +1,9 @@
-package com.trackasia.android.plugins.testapp
+package com.mapbox.mapboxsdk.plugins.testapp
 
 import android.content.Context
 import android.location.Location
 import com.mapbox.core.utils.TextUtils
-import com.trackasia.android.maps.Style
+import com.mapbox.mapboxsdk.maps.Style
 import timber.log.Timber
 import java.io.BufferedReader
 import java.io.IOException
@@ -21,7 +21,7 @@ object Utils {
         Style.getPredefinedStyle("Streets"),
         Style.getPredefinedStyle("Outdoors"),
         Style.getPredefinedStyle("Light"),
-        Style.getPredefinedStyle("Dark"),
+        Style.getPredefinedStyle("Dark")
     )
 
     private var index: Int = 0

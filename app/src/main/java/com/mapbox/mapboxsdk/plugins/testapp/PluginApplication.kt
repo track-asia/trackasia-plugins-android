@@ -1,7 +1,7 @@
-package com.trackasia.android.plugins.testapp
+package com.mapbox.mapboxsdk.plugins.testapp
 
 import android.app.Application
-import com.trackasia.android.Trackasia
+import com.mapbox.mapboxsdk.Mapbox
 import com.squareup.leakcanary.LeakCanary
 import timber.log.Timber
 
@@ -15,7 +15,7 @@ class PluginApplication : Application() {
 
         LeakCanary.install(this)
         initializeLogger()
-        Trackasia.getInstance(this)
+        Mapbox.getInstance(this)
     }
 
     private fun initializeLogger() {

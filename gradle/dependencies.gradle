@@ -7,16 +7,16 @@
   ]
 
   version = [
-      trackasiaAndroidSdk : '1.0.5',
-      trackasiaJava       : '5.9.0',
-      trackasiaTurf       : '5.9.0',
+      trackAsiaAndroidSdk : '1.0.22',
+      trackAsiaJava       : '1.0.20',
+      trackAsiaTurf       : '1.0.0',
       playLocation       : '16.0.0',
       autoValue          : '1.5.4',
       autoValueParcel    : '0.2.6',
       junit              : '4.12',
       supportLib         : '28.0.0',
       constraintLayout   : '1.1.2',
-      mockito            : '2.23.4',
+      mockito            : '5.2.0',
       mockk              : '1.9.3',
       leakCanary         : '1.6.3',
       timber             : '4.7.1',
@@ -27,7 +27,7 @@
       lifecycleLiveData  : '1.1.1',
       room               : '1.1.0',
       androidArchCore    : '1.1.0',
-      robolectric        : '3.8'
+      robolectric        : '4.10.3'
   ]
 
   pluginVersion = [
@@ -40,12 +40,12 @@
   ]
 
   dependenciesList = [
-          // Trackasia
-          trackasiaAndroidSdk     : "io.github.track-asia:android-sdk:${version.trackasiaAndroidSdk}",
-          trackasiaGeoJson        : "io.github.track-asia:android-sdk-geojson:1.0.0",
-          trackasiaTurf           : "io.github.track-asia:android-sdk-turf:1.0.0",
-          trackasiaGeocoding      : "org.maplibre.gl:android-sdk-services:${version.trackasiaJava}",
-          trackasiaCore           : "org.maplibre.gl:android-sdk-core:${version.trackasiaJava}",
+          // TrackAsia
+          trackAsiaAndroidSdk     : "io.github.track-asia:android-sdk:${version.trackAsiaAndroidSdk}",
+          trackasiaGeoJson        : "io.github.track-asia:android-sdk-geojson:${version.trackasiaJava}",
+          trackasiaGeocoding      : "io.github.track-asia:android-sdk-services:${version.trackasiaJava}",
+          trackasiaTurf           : "io.github.track-asia:android-sdk-turf:${version.trackAsiaTurf}",
+          trackasiaCore           : "io.github.track-asia:android-sdk-core:${version.trackAsiaJava}",
 
           // Google Play Location
           playLocation           : "com.google.android.gms:play-services-location:${version.playLocation}",

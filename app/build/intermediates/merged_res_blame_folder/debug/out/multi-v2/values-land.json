@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.trackasia.android.plugins.testapp-mergeDebugResources-25:/values-land/values-land.xml",
+            "outputFile": "com.mapbox.mapboxsdk.plugins.testapp-mergeDebugResources-25:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/9feb9f1cc3508f83d259767fcebec0b6/transformed/appcompat-1.0.0/res/values-land/values-land.xml",
+                    "source": "/Users/sangnguyen/.gradle/caches/transforms-3/67fb09e9863f69f2963f40310604e1ac/transformed/appcompat-1.0.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Volumes/DATA/ADVN-GIT/TRACK-ASIA/trackasia-android/caches/transforms-3/068dcdbbd491dbafa22d330211d6ac77/transformed/material-1.0.0/res/values-land/values-land.xml",
+                    "source": "/Users/sangnguyen/.gradle/caches/transforms-3/0ab07ca20f39a60147219be1240109b4/transformed/material-1.0.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
