@@ -19,7 +19,8 @@ android {
     }
 
     // Avoid naming conflicts
-    resourcePrefix 'mapbox_'
+    resourcePrefix 'trackasia_'
+    namespace 'com.trackasia.android.plugins.offline'
 }
 
 dependencies {

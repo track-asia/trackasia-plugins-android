@@ -24,7 +24,7 @@ javadoc:
 	./gradlew javadocrelease
 
 publish:
-	./gradlew publishToMavenLocal
+	./gradlew publishReleasePublicationToSonatypeRepository closeAndReleaseSonatypeStagingRepository
 
 generate-sanity-test:
 	npm install && node scripts/generate-activity-test.js
@@ -49,9 +49,6 @@ javadoc-$1:
 	# Output is ./mapbox/*/build/docs/javadoc/release
 	./gradlew :$2:javadocrelease
 
-publish-$1:
-	./gradlew :$2:mapboxSDKRegistryUpload
-
 endef
 
 # Explodes the arguments into individual variables
@@ -63,3 +60,42 @@ $(foreach plugin,$(MBGL_ANDROID_PLUGINS),$(eval $(call ANDROID_RULES_INVOKER,$(s
 
 clean:
 	./gradlew clean
+
+.PHONY: run-android-local-publish
+run-android-local:
+	./gradlew publishToMavenLocal
+
+VERSION_NAME := 2.0.0
+
+checksums:
+	cd ~/.m2/repository/io/github/track-asia/android-sdk/$(VERSION_NAME)/ && \
+	md5sum android-sdk-$(VERSION_NAME).pom | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME).pom.md5 && \
+	md5sum android-sdk-$(VERSION_NAME).aar | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME).aar.md5 && \
+	md5sum android-sdk-$(VERSION_NAME)-sources.jar | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME)-sources.jar.md5 && \
+	md5sum android-sdk-$(VERSION_NAME).module | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME).module.md5 && \
+	sha1sum android-sdk-$(VERSION_NAME).pom | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME).pom.sha1 && \
+	sha1sum android-sdk-$(VERSION_NAME).aar | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME).aar.sha1 && \
+	sha1sum android-sdk-$(VERSION_NAME).module | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME).module.sha1 && \
+	sha1sum android-sdk-$(VERSION_NAME)-sources.jar | cut -d ' ' -f 1 > android-sdk-$(VERSION_NAME)-sources.jar.sha1
+
+checksums_opengl:
+	cd ~/.m2/repository/io/github/track-asia/android-sdk-opengl/$(VERSION_NAME)/ && \
+	md5sum android-sdk-opengl-$(VERSION_NAME).pom | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME).pom.md5 && \
+	md5sum android-sdk-opengl-$(VERSION_NAME).aar | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME).aar.md5 && \
+	md5sum android-sdk-opengl-$(VERSION_NAME)-sources.jar | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME)-sources.jar.md5 && \
+	md5sum android-sdk-opengl-$(VERSION_NAME).module | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME).module.md5 && \
+	sha1sum android-sdk-opengl-$(VERSION_NAME).pom | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME).pom.sha1 && \
+	sha1sum android-sdk-opengl-$(VERSION_NAME).aar | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME).aar.sha1 && \
+	sha1sum android-sdk-opengl-$(VERSION_NAME).module | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME).module.sha1 && \
+	sha1sum android-sdk-opengl-$(VERSION_NAME)-sources.jar | cut -d ' ' -f 1 > android-sdk-opengl-$(VERSION_NAME)-sources.jar.sha1
+
+checksums_vulkan:
+	cd ~/.m2/repository/io/github/track-asia/android-sdk-vulkan/$(VERSION_NAME)/ && \
+	md5sum android-sdk-vulkan-$(VERSION_NAME).pom | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME).pom.md5 && \
+	md5sum android-sdk-vulkan-$(VERSION_NAME).aar | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME).aar.md5 && \
+	md5sum android-sdk-vulkan-$(VERSION_NAME)-sources.jar | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME)-sources.jar.md5 && \
+	md5sum android-sdk-vulkan-$(VERSION_NAME).module | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME).module.md5 && \
+	sha1sum android-sdk-vulkan-$(VERSION_NAME).pom | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME).pom.sha1 && \
+	sha1sum android-sdk-vulkan-$(VERSION_NAME).aar | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME).aar.sha1 && \
+	sha1sum android-sdk-vulkan-$(VERSION_NAME).module | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME).module.sha1 && \
+	sha1sum android-sdk-vulkan-$(VERSION_NAME)-sources.jar | cut -d ' ' -f 1 > android-sdk-vulkan-$(VERSION_NAME)-sources.jar.sha1
