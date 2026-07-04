@@ -5,9 +5,9 @@ ext {
     trackAsiaArtifactDescription = project.property('POM_DESCRIPTION')
     trackAsiaDeveloperName = 'TrackAsia'
     trackAsiaDeveloperId = 'trackasia'
-    trackAsiaArtifactUrl = 'https://github.com/trackasia/trackasia-plugins-android'
-    trackAsiaArtifactVcsUrl = 'git@github.com:trackasia/trackasia-plugins-android.git'
-    trackAsiaArtifactScmUrl = 'scm:git@github.com:trackasia/trackasia-plugins-android.git'
+    trackAsiaArtifactUrl = 'https://github.com/track-asia-vn/trackasia-plugins-android'
+    trackAsiaArtifactVcsUrl = 'git@github.com:track-asia-vn/trackasia-plugins-android.git'
+    trackAsiaArtifactScmUrl = 'scm:git@github.com:track-asia-vn/trackasia-plugins-android.git'
     trackAsiaArtifactLicenseName = 'BSD'
     trackAsiaArtifactLicenseUrl = 'https://opensource.org/licenses/BSD-2-Clause'
     versionName = getVersionName()

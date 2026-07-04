@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/trackasia/trackasia-plugins-android/blob/main/.github/mlb-plugins-logo.png" alt="TrackAsia Plugins" width="500">
+  <img src="https://github.com/track-asia-vn/trackasia-plugins-android/blob/main/.github/mlb-plugins-logo.png" alt="TrackAsia Plugins" width="500">
 </h1>
 
 <h4 align="center">Plugins are single-purpose libraries built on top of the <a href="https://track-asia.com/trackasia-gl-native/android/api/">TrackAsia Maps SDK for Android</a> that you can include in your apps like any other Android dependency</h4>
 
 <p align="center">
-  <a href="https://github.com/trackasia/trackasia-plugins-android/actions/workflows/ci.yml"><img src="https://github.com/trackasia/trackasia-plugins-android/actions/workflows/ci.yml/badge.svg" /></a>&nbsp;<a href="https://github.com/trackasia/trackasia-plugins-android/actions/workflows/release.yml"><img src="https://github.com/trackasia/trackasia-plugins-android/actions/workflows/release.yml/badge.svg" /></a>
+  <a href="https://github.com/track-asia-vn/trackasia-plugins-android/actions/workflows/ci.yml"><img src="https://github.com/track-asia-vn/trackasia-plugins-android/actions/workflows/ci.yml/badge.svg" /></a>&nbsp;<a href="https://github.com/track-asia-vn/trackasia-plugins-android/actions/workflows/release.yml"><img src="https://github.com/track-asia-vn/trackasia-plugins-android/actions/workflows/release.yml/badge.svg" /></a>
 
 </p>
 <br>
@@ -73,7 +73,7 @@ A plugin is simply a library module built on top of the TrackAsia Maps SDK for A
 
 This repository includes an app with examples showing how you can use each plugin.
 
-- To access ready-to-use snippets, [see its code here](https://github.com/mapbox/mapbox-plugins-android/tree/main/app/src/main/java/com/trackasia/android/plugins/testapp).
+- To access ready-to-use snippets, [see its code here](https://github.com/track-asia-vn/trackasia-plugins-android/tree/main/app/src/main/java/com/trackasia/android/plugins/testapp).
 - To run the application locally, you need to provide your own [maptiler API key](https://cloud.maptiler.com/account/keys/) at compile time. Therefore, add the property `maptilerApiKey="…"` to your `local.properties` file in the repository's root.
 
 This might change in the future as we build more plugins and learn how you use them. We'd love to [hear your feedback](https://github.com/trackasia/trackasia-plugins-android/issues).
