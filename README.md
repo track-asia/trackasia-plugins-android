@@ -53,7 +53,9 @@ repositories {
 }
 
 dependencies {
-  implementation 'org.trackasia.android:{PLUGIN_NAME}-v{MAJOR_MAPS_SDK_VERSION_NUMBER}:PLUGIN_VERSION_NUMBER'
+  // Example: Annotation plugin v9 for TrackAsia Maps
+implementation 'io.github.track-asia:android-plugin-annotation-v9:2.0.1'
+// Other plugins: localization-v9, building-v9, markerview-v9, scalebar-v9 (2.0.1)
 }
 ```
 
@@ -73,8 +75,8 @@ A plugin is simply a library module built on top of the TrackAsia Maps SDK for A
 
 This repository includes an app with examples showing how you can use each plugin.
 
-- To access ready-to-use snippets, [see its code here](https://github.com/mapbox/mapbox-plugins-android/tree/main/app/src/main/java/org/track-asia/android/plugins/testapp).
-- To run the application locally, you need to provide your own [maptiler API key](https://cloud.maptiler.com/account/keys/) at compile time. Therefore, add the property `maptilerApiKey="…"` to your `local.properties` file in the repository's root.
+- To access ready-to-use snippets, [see its code here](https://github.com/track-asia/trackasia-plugins-android/tree/main/app/src/main/java/org/track-asia/android/plugins/testapp).
+- To run the application locally, provide your TrackAsia API key in `local.properties` or configure Style URL: `https://maps.track-asia.com/styles/v2/streets.json?key=public`.
 
 This might change in the future as we build more plugins and learn how you use them. We'd love to [hear your feedback](https://github.com/track-asia/trackasia-plugins-android/issues).
 
