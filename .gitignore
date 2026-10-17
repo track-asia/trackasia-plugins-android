@@ -19,3 +19,7 @@ app/src/androidTest/java/org/track-asia/android/plugins/gen
 ### Code gen annotation plugin ###
 plugin-annotation/scripts/code-gen.list
 plugin-annotation/scripts/node_modules/
+
+# Local tools and history
+.history/
+.playwright-mcp/
